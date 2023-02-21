@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Cores usadas
+    Branco = #f7f7f7
+    Preto = #484848
+    Roxo =
+
+   Fontes Usadas
+    Ubuntu
+*/
+
+/*Importação das fontes Ubuntu do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+    color: #484848;
+    font-family: 'Ubuntu', sans-serif;
+    
+    box-sizing: border-box;
+}
+
+P {
+    text-align: justify;
+}
+
+html, body {
+    background-color: #f7f7f7;
+    margin: auto;
+    
+}
+
+header {
+    text-align: center;
+    
+
+    padding: 10px;
+    border-bottom: 1px solid #484848;
+
+}
+
+header > menu {
+    padding: 20px;
+}
+
+header > menu > a {
+    text-decoration: none;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+    height: 800px;
+    padding: 20px;
+}
+
+main > h1 {
+    padding: 20px;
+}
