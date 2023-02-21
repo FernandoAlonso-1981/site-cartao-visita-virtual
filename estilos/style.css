@@ -47,6 +47,7 @@ header > menu {
 
 header > menu > a {
     text-decoration: none;
+    padding: 10px;
 }
 
 main {
