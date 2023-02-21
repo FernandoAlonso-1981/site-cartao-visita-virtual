@@ -8,22 +8,25 @@
     <link rel="shortcut icon" href="imagens/favicon-cartao-de-visita-virtual.png" type="image/x-icon"> <!-- Chamada Favicon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- CSS ícones Google -->
     
-
     <link rel="stylesheet" href="estilos/style.css"> <!-- Chamada CSS - Principal -->
+    <link rel="stylesheet" href="estilos/media-query.css"> <!-- -->
     
     <title>Cartão de Visita Virtual - Seu novo cartão de Visita</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <menu>
-            <a href="#"><strong>Home</strong></a>
-            <a href="#"><strong>Vantagens</strong></a>
-            <a href="#"><strong>Portfólio</strong></a>
-            <a href="#"><strong>Diferencial</strong></a>
-            <a href="#"><strong>Dúvidas</strong></a>
-            <a href="#"><strong>Vídeos</strong></a>
-            <a href="#"><strong>Contato</strong></a>
-        </menu>
+        <div class="menu">
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <a href="#"><strong>Home</strong></a>
+                <a href="#"><strong>Vantagens</strong></a>
+                <a href="#"><strong>Portfólio</strong></a>
+                <a href="#"><strong>Diferencial</strong></a>
+                <a href="#"><strong>Dúvidas</strong></a>
+                <a href="#"><strong>Vídeos</strong></a>
+                <a href="#"><strong>Contato</strong></a>
+            </menu>
+        </div>
     </header>
 
     <main>
@@ -35,6 +38,30 @@
     <footer>
 
     </footer>
-    
+
+
+    <!-- Por enquanto deixar os Scripts aqui, ao finalizar colocar no arquivo separado. -->
+ 
+    <script>
+        
+         function mudouTamanho() {
+            if (window.innerWidth >= 992) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+         }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+    </script>
+
+        
 </body>
 </html>

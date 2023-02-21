@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Cores usadas
+    Branco = #f7f7f7
+    Preto = #484848
+    Roxo Escuro = #79239D
+    Verde Escuro = #9BCCAF
+    Verde claro = #B2D7C1
+
+   Fontes Usadas
+    Ubuntu
+*/
+
+@media screen and (min-width: 992px){
+
+    body {
+        background-color: #ccaf9b;
+    }
+
+    header {
+        background-image: linear-gradient(#ffffff,   #29f23a);
+    }    
+
+    i#burguer {
+        display: none;
+    }
+
+    header > div > menu {
+        display: block;
+        
+    }
+
+    header > div > menu > a {
+        display: inline;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1200px){
+
+    body {
+        background-color: #9BCCAF;
+    }
+
+    header {
+        background-image: linear-gradient(#ffffff,   #d1f229);
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    header > div > menu {
+        display: block;
+        
+    }
+
+    header > div > menu > a {
+        display: inline;
+    }
+
+    
+}

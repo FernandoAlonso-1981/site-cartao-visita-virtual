@@ -3,7 +3,9 @@
 /* Cores usadas
     Branco = #f7f7f7
     Preto = #484848
-    Roxo =
+    Roxo Escuro = #79239D
+    Verde Escuro = #9BCCAF
+    Verde claro = #B2D7C1
 
    Fontes Usadas
     Ubuntu
@@ -18,12 +20,14 @@
     
     color: #484848;
     font-family: 'Ubuntu', sans-serif;
-    
+        
     box-sizing: border-box;
 }
 
 P {
     text-align: justify;
+    line-height: 1.5em;
+    padding: 10px;
 }
 
 html, body {
@@ -35,19 +39,52 @@ html, body {
 header {
     text-align: center;
     
-
     padding: 10px;
-    border-bottom: 1px solid #484848;
+    border-bottom: 1px solid #48484822;
 
 }
 
-header > menu {
+header > div >menu {
     padding: 20px;
 }
 
-header > menu > a {
+header > div > menu > a {
     text-decoration: none;
     padding: 10px;
+}
+
+
+i#burguer {
+    color: #79239D;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    color: #78239d7e;
+    transform: scale(84%);
+    
+}*
+
+menu {
+    display: none;
+    text-align: center;
+    list-style-type: none;
+}
+
+menu > a {
+    display: block;
+    width: 90vw;
+       
+}
+
+menu > a:hover {
+   
+    background-color: #ffffff;
+    transform: scale(93%);
+    
 }
 
 main {
@@ -58,5 +95,5 @@ main {
 }
 
 main > h1 {
-    padding: 20px;
+    padding: 10px;
 }
