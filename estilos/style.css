@@ -43,6 +43,10 @@ header {
     /*border-bottom:  1px solid #48484822;*/
 }
 
+div#logo {
+    display: none;
+}
+
 i#burguer {
     color: #79239D;
     display: block;
@@ -104,11 +108,39 @@ main > h1 {
     
 }
 
+button#veja {
+    background-color: #79239D;
+    margin: auto;
+    display: block;
+    color: #f7f7f7;
+}
+
 img#banner {
     margin: auto;
-    width: 90%;
+    width: 100%;
     display: block;
     padding: 30px 0px 30px 0px;
+    
+}
+
+div#aveja{
+    padding: 20px 0px 20px 0px;
+}
+
+a#veja {
+    margin: auto;
+    display: block;
+    background-color: #79239D;
+    color: #f7f7f7;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 7px;  
     
 }
 
