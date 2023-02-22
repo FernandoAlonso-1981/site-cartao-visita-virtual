@@ -32,68 +32,102 @@ P {
 
 html, body {
     background-color: #f7f7f7;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 header {
+    margin: auto;
     text-align: center;
-    
+    width: 90vw;
     padding: 10px;
-    border-bottom: 1px solid #48484822;
-
+    /*border-bottom:  1px solid #48484822;*/
 }
-
-header > div >menu {
-    padding: 20px;
-}
-
-header > div > menu > a {
-    text-decoration: none;
-    padding: 10px;
-}
-
 
 i#burguer {
     color: #79239D;
     display: block;
-    text-align: center;
-    padding: 10px;
+    text-align: right;
+    padding: 20px;
     cursor: pointer;
+    border-bottom: 1px solid #48484822; 
+
 }
 
 i#burguer:hover {
     color: #78239d7e;
-    transform: scale(84%);
-    
-}*
-
-menu {
-    display: none;
-    text-align: center;
-    list-style-type: none;
-}
-
-menu > a {
-    display: block;
-    width: 90vw;
-       
-}
-
-menu > a:hover {
+    transform: scale(99%); 
    
-    background-color: #ffffff;
-    transform: scale(93%);
+}
+
+header > div > menu {
+    display: none;
+    background-color: #f7f7f7;
+
+    position: absolute;
+    margin: auto;
+    width: 70vw;
+    padding: 10px;
+    border-top: 3px solid #79239D;
     
+    left: 10%;
+    right: 10%;    
+}
+
+header > div > menu > a {
+    
+    display: block;
+    margin: auto;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: left;
+
+    
+}
+
+header > div > menu > a:hover {
+    background-color: white;
+    transform: scale(97%); 
 }
 
 main {
-    width: 90vw;
     margin: auto;
-    height: 800px;
+    width: 90vw;
     padding: 20px;
 }
 
 main > h1 {
     padding: 10px;
+    text-align: left;
+    
 }
+
+
+/*
+menu {
+    animation-duration: 2s;
+    
+    transition: transform 0.3s ease;
+    
+
+    animation-name: slidein
+  }
+  
+  @keyframes slidein {
+    
+    from {
+      margin-top: 50%;
+      width: 20vw;
+    }
+  
+    to {
+      margin-top: 0% ;
+      width: 70vw;
+    }
+   
+
+    }
+    
+ */ 
+
