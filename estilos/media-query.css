@@ -34,9 +34,13 @@
         display: inline;
     }
 
-    div#main {
+    div#h1princ {
         column-count: 2;
-      }
+    }
+
+    div#h3ganha {
+        column-count: 4;
+    }
 
     
 }
@@ -65,9 +69,9 @@
         display: inline;
     }
 
-    div#main {
+    div#h1princ {
         column-count: 2;
-      }
+    }
 
       img#banner {
         width: 80%;

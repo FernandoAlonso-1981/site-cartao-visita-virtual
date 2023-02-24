@@ -14,6 +14,8 @@
 /*Importação das fontes Ubuntu do Google*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
+
+/*Configuração geral*/
 * {
     padding: 0px;
     margin: 0px;
@@ -24,30 +26,40 @@
     box-sizing: border-box;
 }
 
+/*Todos os paragrafos*/
+
 P {
     text-align: justify;
     line-height: 1.5em;
-    padding: 20px 0px 20px 0px;
+    padding: 0px 40px 0px 40px;
     line-height: 1.8em;
 }
+
+/*Configuração html e body*/
 
 html, body {
     background-color: #f7f7f7;
     margin: auto;   
 }
 
+/*Cabeçlaho*/
+
 header {
+    background-color: white;
     margin: auto;
     text-align: center;
-    width: 90vw;
-    padding: 10px;
+    width: auto;
+    
     /*border-bottom:  1px solid #48484822;*/
 }
 
+/*Econdendo a logo mobile firt*/
 div#logo {
     display: none;
 }
 
+
+/*Configuração menu mobile first*/
 i#burguer {
     color: #79239D;
     display: block;
@@ -58,16 +70,18 @@ i#burguer {
 
 }
 
+/*icone menu ao passar o mouse*/
 i#burguer:hover {
     color: #78239d7e;
     transform: scale(99%); 
    
 }
 
+/*Configuração do menu mobile first*/
 header > div > menu {
     display: none;
-    background-color: #f7f7f7;
-
+    background-color: #ffffff;
+    
     position: absolute;
     margin: auto;
     width: 70vw;
@@ -78,62 +92,44 @@ header > div > menu {
     right: 10%;    
 }
 
+/*Configuração dos links do menu mobile first*/
 header > div > menu > a {
-    
     display: block;
     margin: auto;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     text-decoration: none;
-    padding: 10px 25px 10px 25px;
+    padding: 15px 25px 15px 25px;
     border-bottom: 1px solid rgb(255, 255, 255);
     text-align: left;
 
     
 }
 
+/*Configuração dos links do menu mobile first ao passar o mouse*/
 header > div > menu > a:hover {
-    background-color: white;
+    background-color: #f7f7f7;
     transform: scale(97%); 
 }
 
+/*main fundo principal*/
+
 main {
     margin: auto;
-    width: 90vw;
-    padding: 20px;
-}
-
-
-main > h1 {
-    padding: 10px;
-    text-align: left;
     
 }
 
-button#veja {
-    background-color: #79239D;
-    margin: auto;
-    display: block;
-    color: #f7f7f7;
+
+h1#h1{
+
+    padding: 40px 40px 40px 40px;
 }
 
-img#banner {
-    margin: auto;
-    width: 100%;
-    display: block;
-    padding: 30px 0px 30px 0px;
-    
-}
-
-main > h1 {
-    padding: 10px;
-    text-align: left;
-    
-}
-
+/*div da botão do banner*/
 div#aveja{
-    padding: 30px 0px 30px 0px;
+    padding: 50px;
 }
 
+/*Botão veja quem fez*/
 a#veja {
     margin: auto;
     display: block;
@@ -141,7 +137,7 @@ a#veja {
     color: #f7f7f7;
     border: 2px solid;
     border-radius: 20px;
-    padding: 20px 0px 20px 0px;
+    padding: 20px;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -151,17 +147,44 @@ a#veja {
     
 }
 
+/*Css imagem do banner*/
+img#banner {
+    margin: auto;
+    width: 100%;
+    display: block;
+    padding: 20px 30px 40px 30px;
+    
+}
+
+/*CSS h2*/
 div#h21{
-    padding: 10px 0px 10px 0px;
+    padding: 40px 40px 40px 40px;
 }
 
+/*primeira parte div ganha*/
 div#ganha {
-    padding: 10px 0px 10px 0px;
+    margin: auto;
+    background-color: #ffffff;
 }
 
+/*h3 dentro do ganha*/
 div#h3ganha {
+    text-align: center;
     column-count: 1;
     padding: 10px 0px 10px 0px;
+}
+
+/**/
+div.h3ganha3 {
+    padding: 20px 0px 20px 0px;
+}
+
+/*ícones do ganha*/
+i#linkpdf {
+    color: #79239D;
+    font-size: 3.5em;
+    
+    padding: 10px;
 }
 
 
