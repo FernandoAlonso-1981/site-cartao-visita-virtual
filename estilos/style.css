@@ -122,6 +122,7 @@ main {
 h1#h1{
 
     padding: 40px 40px 40px 40px;
+    text-align: center;
 }
 
 /*div da botão do banner*/
@@ -159,6 +160,7 @@ img#banner {
 /*CSS h2*/
 div#h21{
     padding: 40px 40px 40px 40px;
+    text-align: center;
 }
 
 /*primeira parte div ganha*/
@@ -177,6 +179,10 @@ div#h3ganha {
 /**/
 div.h3ganha3 {
     padding: 20px 0px 20px 0px;
+}
+
+h3#h3 {
+    padding: 20px;
 }
 
 /*ícones do ganha*/
