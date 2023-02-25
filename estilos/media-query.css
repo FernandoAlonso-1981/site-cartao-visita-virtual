@@ -44,6 +44,10 @@
         column-count: 3;
         
     }
+
+    id#h3difere {
+        column-count: 2;
+    }
     
 }
 
@@ -85,5 +89,9 @@
     div#imgcard {
         column-count: 5;
         
+    }
+
+    div#h3difere {
+        column-count: 2;
     }
 }

@@ -310,7 +310,56 @@ a#port:hover {
     transition: 0.3s;
 }
 
+/*h3 dentro do diferencial*/
+div#h3difere {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
 
+i#h3diferen {
+    text-align: left;
+    padding: 0px 10px 0px 0px;
+    color: #79239D;
+}
+
+
+/*Botão Vídeo*/
+a#video {
+    margin: auto;
+    display: block;
+    background-color: #c4302b;
+    color: #f7f7f7;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+   
+}
+
+a#video:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+i#video {
+    color: #f7f7f7;
+    font-size:1.52em;
+    text-align: center;
+    padding: 0px 10px 0px 0px;
+}
+
+img#imgdifer {
+    margin: auto;
+    width: 100%;
+    display: block;
+    scale: 90%;
+    padding: 0px 30px 30px 30px;
+    
+}
 /*
 menu {
     animation-duration: 2s;
