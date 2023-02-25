@@ -6,6 +6,7 @@
     Roxo Escuro = #79239D
     Verde Escuro = #9BCCAF
     Verde claro = #B2D7C1
+    Verde WhatsApp = #34af23
 
    Fontes Usadas
     Ubuntu
@@ -148,6 +149,12 @@ a#veja {
     
 }
 
+/*passar o mouse Botão veja quem fez*/
+a#veja:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
 /*Css imagem do banner*/
 img#banner {
     margin: auto;
@@ -160,6 +167,10 @@ img#banner {
 /*CSS h2*/
 div#h21{
     padding: 40px 40px 40px 40px;
+    text-align: center;
+}
+
+h2#h2what {
     text-align: center;
 }
 
@@ -181,6 +192,7 @@ div.h3ganha3 {
     padding: 20px 0px 20px 0px;
 }
 
+/*Espaçãmentos do h3*/
 h3#h3 {
     padding: 20px;
 }
@@ -189,33 +201,113 @@ h3#h3 {
 i#linkpdf {
     color: #79239D;
     font-size: 3.5em;
-    
     padding: 10px;
 }
 
+/*Botão WhatsApp*/
+a#whatsapp {
+    margin: auto;
+    display: block;
+    background-color: #34af23;
+    color: #f7f7f7;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 7px;  
+}
+
+/*passar o mouse Botão WhatsApp*/
+a#whatsapp:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+
+/*Paragrafo do texto debaixo do h2 casos*/
 p#casos {
+    text-align: center;
     text-align: center;
 }
 
-div#imgcard {
-    column-count: 2;
-    padding: 30px;
+/*Paragrafo do texto debaixo do h2 botão whatsapp*/
+p#casos1 {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
 }
 
+i#whats {
+    color: #f7f7f7;
+    font-size:1.52em;
+    text-align: center;
+    padding: 0px 10px 0px 0px;
+}
+
+/*dividindo 2 colunas mobile first*/
+div#imgcard {
+    column-count: 2;
+    padding: 0px 20px 40px 20px;
+}
+
+
+/*acertando para caber 2 imagens*/
 div#imgcartao {
     width: auto;
     height: 100%;
     overflow: hidden;
-   
-    
-    
 }
 
+/*acertando as 2 imagens centralizadas*/
 img#imgcartao {
     text-align: center;
     max-width: 100%;
     max-height: 100%;    
+    padding: 10px 0px 10px 0px;
+}
+
+/*Passar o mouse nos cartões*/
+img#imgcartao:hover{
+    scale: 97%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*parte dos botões abaixo das imagens de catões*/
+
+div#botoes{
+    padding: 0px 10px 50px 10px;
+}
+
+div#portbutton{
+    column-count: 2;
+    padding: 5px 20px 5px 20px;
+}
+
+a#port {
+    margin: auto;
+    display: block;
+    background-color: #79239D;
+    color: #f7f7f7;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 1.4em 0px 1.4em 0px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 7px;  
     
+}
+
+/*passar o mouse Botão veja quem fez*/
+a#port:hover {
+    scale: 97%;
+    transition: 0.3s;
 }
 
 
