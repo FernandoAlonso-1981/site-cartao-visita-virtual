@@ -310,10 +310,15 @@ a#port:hover {
     transition: 0.3s;
 }
 
+div#video {
+    padding: 50px 50px 0px 50px;
+}
+
 /*h3 dentro do diferencial*/
 div#h3difere {
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 0px;
+    
 }
 
 i#h3diferen {
@@ -352,14 +357,43 @@ i#video {
     padding: 0px 10px 0px 0px;
 }
 
-img#imgdifer {
+div#imgdifer {
     margin: auto;
-    width: 100%;
     display: block;
+    align-items: center;
+      
+}
+
+img#imgdifer {   
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    padding: 30px;
     scale: 90%;
-    padding: 0px 30px 30px 30px;
+
+}
+
+/*primeira parte div duvida*/
+div#duvidas {
+    margin: auto;
+    background-color: #79239D;
     
 }
+
+/*h2 div*/
+div#h2duv{
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    
+}
+
+h2#diferencial{
+    color: #f7f7f7;
+}
+
+
 /*
 menu {
     animation-duration: 2s;
