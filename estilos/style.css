@@ -145,7 +145,7 @@ a#veja {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8em;
-    letter-spacing: 7px;  
+    letter-spacing: 3px;  
     
 }
 
@@ -217,8 +217,8 @@ a#whatsapp {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.8em;
-    letter-spacing: 7px;  
+    font-size: 1em;
+   
 }
 
 /*passar o mouse Botão WhatsApp*/
@@ -300,7 +300,7 @@ a#port {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8em;
-    letter-spacing: 7px;  
+    
     
 }
 
