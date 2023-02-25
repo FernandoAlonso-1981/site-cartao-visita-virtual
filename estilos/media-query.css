@@ -32,6 +32,11 @@
         display: inline;
     }
 
+    main {
+        width: 80%;
+        max-width: 1080px;
+    }
+
     div#h1princ {
         column-count: 2;
     }
@@ -54,8 +59,9 @@
 
 @media screen and (min-width: 992px){
 
-    body {
-        width: 66%;
+    main {
+        width: 80%;
+        max-width: 80%;
     }
 
     header {
