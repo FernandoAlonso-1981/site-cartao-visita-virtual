@@ -195,6 +195,7 @@ div.h3ganha3 {
 /*Espaçãmentos do h3*/
 h3#h3 {
     padding: 20px;
+    text-align: center;
 }
 
 /*ícones do ganha*/
@@ -229,6 +230,7 @@ a#whatsapp:hover {
 
 
 /*Paragrafo do texto debaixo do h2 casos*/
+
 p#casos {
     text-align: center;
     text-align: center;
@@ -440,6 +442,45 @@ summary:hover {
     scale: 60%;
 }
 
+
+/*parte dos vídeos*/
+
+div#videos {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+div#h2video {
+    text-align: center;
+    padding: 10px 0px 60px 0px;
+}
+
+h3#h3video {
+   text-align: center;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+   
+   
 
 /*
 menu {
