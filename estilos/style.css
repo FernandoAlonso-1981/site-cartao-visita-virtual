@@ -430,120 +430,14 @@ p#pduv {
     background-color: #A852B5;
 }
 
-
-div#duv01 {
-    display: none;
+summary {
+    color: #f7f7f7;
+    padding: 0px 0px 5px 0px;
+    scale: 90%;
 }
 
-div#duv01 > p {
-    display: block;
-}
-
-
-div#duv1 {
-    display: none;
-}
-
-div#duv1 > p {
-    display: block;
-}
-
-
-div#duv2 {
-    display: none;
-}
-
-div#duv2 > p {
-    display: block;
-}
-
-
-div#duv3 {
-    display: none;
-}
-
-div#duv3 > p {
-    display: block;
-}
-
-
-div#duv4 {
-    display: none;
-}
-
-div#duv4 > p {
-    display: block;
-}
-
-
-div#duv5 {
-    display: none;
-}
-
-div#duv5 > p {
-    display: block;
-}
-
-
-div#duv6 {
-    display: none;
-}
-
-div#duv6 > p {
-    display: block;
-}
-
-
-div#duv7 {
-    display: none;
-}
-
-div#duv7 > p {
-    display: block;
-}
-
-
-div#duv8 {
-    display: none;
-}
-
-div#duv8 > p {
-    display: block;
-}
-
-
-div#duv9 {
-    display: none;
-}
-
-div#duv9 > p {
-    display: block;
-}
-
-
-div#duv10 {
-    display: none;
-}
-
-div#duv10 > p {
-    display: block;
-}
-
-
-div#duv11 {
-    display: none;
-}
-
-div#duv11 > p {
-    display: block;
-}
-
-div#duv12 {
-    display: none;
-}
-
-div#duv12 > p {
-    display: block;
+summary:hover {
+    scale: 60%;
 }
 
 
