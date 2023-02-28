@@ -4,6 +4,7 @@
     Branco = #f7f7f7
     Preto = #484848
     Roxo Escuro = #79239D
+    Roxo Claro = #A852B5
     Verde Escuro = #9BCCAF
     Verde claro = #B2D7C1
     Verde WhatsApp = #34af23
@@ -383,13 +384,166 @@ div#duvidas {
 
 /*h2 div*/
 div#h2duv{
-    padding: 40px 40px 40px 40px;
+   padding: 20px 0px 40px 0px;
     text-align: center;
-    
 }
 
 h2#duvidas{
     color: #f7f7f7;
+    padding: 40px 40px 40px 40px;
+   
+}
+
+/*Parte de dúvidas do sites*/
+div#duvidas {
+    padding: 30px;
+}
+
+h3#h3duv {
+    padding: 20px 40px 5px 40px;
+    font-size: 1em;
+    color: #f7f7f7;
+}
+
+i#h3duv {
+    display: block;
+    color: #f7f7f7;
+    font-size: 0.7em;
+    padding: 0px 0px 10px 0px;
+}
+
+i#h3duv:hover {
+    cursor: pointer;
+    transform: scale(90%); 
+}
+
+strong#duv{
+    color: #f7f7f7;
+}
+
+/*essa parte estou fazendo cada dúvida individual até saber como faz 1 só*/
+p#pduv {
+    margin: auto;
+    border: 20px;
+    color: #f7f7f7;
+    padding: 10px 20px 10px 20px;
+    background-color: #A852B5;
+}
+
+
+div#duv01 {
+    display: none;
+}
+
+div#duv01 > p {
+    display: block;
+}
+
+
+div#duv1 {
+    display: none;
+}
+
+div#duv1 > p {
+    display: block;
+}
+
+
+div#duv2 {
+    display: none;
+}
+
+div#duv2 > p {
+    display: block;
+}
+
+
+div#duv3 {
+    display: none;
+}
+
+div#duv3 > p {
+    display: block;
+}
+
+
+div#duv4 {
+    display: none;
+}
+
+div#duv4 > p {
+    display: block;
+}
+
+
+div#duv5 {
+    display: none;
+}
+
+div#duv5 > p {
+    display: block;
+}
+
+
+div#duv6 {
+    display: none;
+}
+
+div#duv6 > p {
+    display: block;
+}
+
+
+div#duv7 {
+    display: none;
+}
+
+div#duv7 > p {
+    display: block;
+}
+
+
+div#duv8 {
+    display: none;
+}
+
+div#duv8 > p {
+    display: block;
+}
+
+
+div#duv9 {
+    display: none;
+}
+
+div#duv9 > p {
+    display: block;
+}
+
+
+div#duv10 {
+    display: none;
+}
+
+div#duv10 > p {
+    display: block;
+}
+
+
+div#duv11 {
+    display: none;
+}
+
+div#duv11 > p {
+    display: block;
+}
+
+div#duv12 {
+    display: none;
+}
+
+div#duv12 > p {
+    display: block;
 }
 
 
