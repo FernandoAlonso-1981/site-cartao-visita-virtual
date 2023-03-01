@@ -375,8 +375,9 @@
             <div id="clientes">
                 <div id="h2video">
                     <h2 class="h2divi">O que dizem nossos clientes</h2>
+                    <h3 id="counter1">0</h3>
+                    <p>Cartões Feitos</p>
                 </div>
-                
             </div>
         </div>
 
@@ -406,6 +407,20 @@
                 itens.style.display = 'block'
             }
         }
+
+        var counter1 = document.getElementById('counter1');
+        var counter2 = document.getElementById('counter2');
+
+        function increment(i, max, element){
+        if(i > max) return;
+        setTimeout(function(){
+            element.innerText = Math.round(i);
+            increment(i+(max/100), max, element);
+        },10)
+        }
+
+        increment(0, 5000, counter1 );
+        increment(0, 4990, counter2 );
 
     </script>
 
