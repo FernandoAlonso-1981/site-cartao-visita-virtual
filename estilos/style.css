@@ -261,6 +261,7 @@ div#imgcartao {
     width: auto;
     height: 100%;
     overflow: hidden;
+    text-align: center;
 }
 
 /*acertando as 2 imagens centralizadas*/
@@ -317,6 +318,10 @@ div#video {
 }
 
 /*h3 dentro do diferencial*/
+div#diferencial {
+    background-color: #ffffff;
+}
+
 div#h3difere {
     text-align: center;
     padding: 0px;
@@ -446,7 +451,7 @@ summary:hover {
 /*parte dos vídeos*/
 
 div#videos {
-    padding: 40px;
+    padding: 40px 40px 80px 40px;
     background-color: #ffffff;
 }
 
@@ -459,8 +464,22 @@ h3#h3video {
    text-align: center;
 }
 
+h3#h3video1 {
+    padding: 40px 0px 0px 40px;
+}
 
-   
+/*parte de clientes*/   
+
+div#clientes {
+    padding: 40px 40px 80px 40px;
+    
+}
+
+/*testanado contador*/
+
+.content {
+    counter-reset: section; 
+  }
    
 
 /*
