@@ -475,6 +475,33 @@ div#clientes {
     
 }
 
+div#cartoesfeitos {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+p#cartoesfeitos1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    color: #79239D;
+
+}
+
+p#cartoesfeitos{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+h2#h2cliente {
+    padding: 80px 20px 10px 20px;
+}
+
+div#imgcliente {
+    display: none;
+}
+
 /*testanado contador*/
 
 
