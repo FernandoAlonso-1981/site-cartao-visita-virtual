@@ -279,6 +279,7 @@ img#imgcartao:hover{
     transition: 0.3s;
 }
 
+
 /*parte dos botões abaixo das imagens de catões*/
 
 div#botoes{
@@ -471,7 +472,7 @@ h3#h3video1 {
 /*parte de clientes*/   
 
 div#clientes {
-    padding: 40px 40px 80px 40px;
+    padding: 40px 0px 80px 0px;
     
 }
 
@@ -495,12 +496,143 @@ p#cartoesfeitos{
 }
 
 h2#h2cliente {
-    padding: 80px 20px 10px 20px;
+    padding: 100px 20px 0px 20px;
 }
+
+/*dividindo 2 colunas mobile first*/
+div#imgcliente1 {
+    
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+div#imgcliente1 {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*acertando as 2 imagens centralizadas*/
+img#imgcliente1 {
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;    
+    padding: 0px 10px 0px 10px;
+}
+
+
 
 div#imgcliente {
     display: none;
 }
+
+
+/*área de contato*/
+
+div#imgcontato{
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+img#contato {
+    text-align: center;
+    width: 50%;
+    height: 50%;   
+    padding: 0px 0px 0px 0px; 
+    
+}
+
+h3#contato {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+i#contato {
+    font-size: 1.7em;
+    padding: 0px 20px 10px 10px;
+    color: #79239D;
+
+}
+
+a#contato {
+    text-decoration: none;
+}
+
+div#linkcontato {
+    padding: 0px 0px 10px 0px;
+}
+
+p#contato {
+    
+    font-size: 1em;
+   
+}
+
+/*Botão redesocial*/
+
+div#redes {
+    column-count: 2;
+    padding: 40px 160px 60px 160px;
+}
+
+div#rede {
+    padding: 0px;
+}
+
+
+a#rede {
+    margin: auto;
+    display: block;
+    background-color: #79239D;
+    color: #f7f7f7;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+   
+}
+
+a#rede:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+i#rede {
+    color: #f7f7f7;
+    font-size:2em;
+    text-align: center;
+    padding: 0px;
+}
+
+div#menucontato {
+    padding: 0px 0px 40px 0px;
+}
+
+h3#contatolink {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+p#rede {
+    text-align: center;   
+    
+}
+
+a#contato1{
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+
 
 /*testanado contador*/
 
