@@ -631,8 +631,31 @@ a#contato1{
     font-weight: lighter;
 }
 
+img#pagamento {
+    padding: 40px;
+}
 
+img#selo {
+    padding: 0px 10px 40px 10px;
+}
 
+footer#rodape {
+    
+    background-color: #79239D;
+    margin: auto;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+footer > p > a {
+    color: #B2D7C1;
+
+}
 
 /*testanado contador*/
 
