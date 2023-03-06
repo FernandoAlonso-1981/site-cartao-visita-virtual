@@ -657,6 +657,41 @@ footer > p > a {
 
 }
 
+/*Botão voltar ao topo*/
+
+
+html, body {
+       scroll-behavior: smooth;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-color:#B2D7C1;
+    text-decoration: none;
+}
+.btn::after {
+    content: "^";
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #79239D;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+
+
+/*Botão voltar ao topo*/
+
+
+
 /*testanado contador*/
 
 
