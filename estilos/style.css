@@ -26,6 +26,8 @@
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;;
         
     box-sizing: border-box;
+    font-display: swap;
+
 }
 
 /*Todos os paragrafos*/
