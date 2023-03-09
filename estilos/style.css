@@ -14,13 +14,9 @@
 */
 
 /*Importação das fontes Ubuntu do Google*/
-/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-@font-face {
-  font-family: 'Ubuntu';
-  src: url('../fontes/Ubuntu-Regular.ttf');
-  font-display: swap;
-}
+
 
 
 /*Configuração geral*/
@@ -29,10 +25,10 @@
     margin: 0px;
     
     color: #484848;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu' , Arial, Helvetica, sans-serif;
         
     box-sizing: border-box;
-    /*font-display: swap;*/
+    font-display: swap;
 
 }
 
@@ -135,6 +131,7 @@ h1#h1{
 
     padding: 40px 40px 40px 40px;
     text-align: center;
+    
 }
 
 /*div da botão do banner*/
