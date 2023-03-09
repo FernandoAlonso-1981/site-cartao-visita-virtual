@@ -167,6 +167,7 @@ a#veja:hover {
 img#banner {
     margin: auto;
     width: 100%;
+    height: auto;
     display: block;
     padding: 20px 30px 40px 30px;
     
@@ -275,6 +276,8 @@ div#imgcartao {
 /*acertando as 2 imagens centralizadas*/
 img#imgcartao {
     text-align: center;
+    width: auto;
+    height: auto;
     max-width: 100%;
     max-height: 100%;    
     padding: 10px 0px 10px 0px;
@@ -285,6 +288,8 @@ img#imgcartao:hover{
     scale: 97%;
     cursor: pointer;
     transition: 0.3s;
+    width: auto;
+    height: auto;
 }
 
 
@@ -382,6 +387,7 @@ div#imgdifer {
 
 img#imgdifer {   
     width: 70%;
+    height: auto;
     top: 50%;
     left: 50%;
     right: 50%;
@@ -524,6 +530,8 @@ div#imgcliente1 {
 
 /*acertando as 2 imagens centralizadas*/
 img#imgcliente1 {
+    width: auto;
+    height: auto;
     text-align: center;
     max-width: 100%;
     max-height: 100%;    
@@ -640,10 +648,14 @@ a#contato1{
 }
 
 img#pagamento {
+    width: auto;
+    height: auto;
     padding: 40px;
 }
 
 img#selo {
+    width: auto;
+    height: auto;
     padding: 0px 10px 40px 10px;
 }
 
