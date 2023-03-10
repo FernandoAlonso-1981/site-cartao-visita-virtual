@@ -87,6 +87,8 @@ p#burguer:hover {
    
 }
 
+
+
 /*Configuração do menu mobile first*/
 header > div > menu {
     display: none;
@@ -587,6 +589,7 @@ div#linkcontato {
 p#contato {
     
     font-size: 1em;
+    font-weight: bold;
    
 }
 
@@ -594,7 +597,7 @@ p#contato {
 
 div#redes {
     column-count: 2;
-    padding: 40px 100px 60px 100px;
+    padding: 40px 70px 60px 70px;
 }
 
 div#rede {
@@ -623,12 +626,6 @@ a#rede:hover {
     transition: 0.3s;
 }
 
-i#rede {
-    color: #f7f7f7;
-    font-size:2em;
-    text-align: center;
-    padding: 0px;
-}
 
 div#menucontato {
     padding: 0px 0px 40px 0px;
@@ -678,6 +675,11 @@ footer > p {
 footer > p > a {
     color: #B2D7C1;
 
+}
+
+span#video {
+    color: #f7f7f7;
+    padding: 0px 10px 0px 0px;
 }
 
 /*Botão voltar ao topo*/
@@ -739,10 +741,13 @@ a#wha:hover {
     scale: 93%;
 }
 
-i#wha {
+span#wha {
     color: #f7f7f7;
-    font-size: 2.5em;
+    text-align: center;
+    font-size: 2em;
 }
+
+
 
 
 /*Botão voltar ao topo e botão whatsapp*/
