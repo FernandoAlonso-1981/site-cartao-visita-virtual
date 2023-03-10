@@ -597,7 +597,7 @@ p#contato {
 
 div#redes {
     column-count: 2;
-    padding: 40px 70px 60px 70px;
+    padding: 40px 30px 60px 30px;
 }
 
 div#rede {
@@ -706,6 +706,12 @@ img#voltar:hover {
     scale: 84%;
 }
 
+img#whatsapp {
+    margin: auto;
+    height: 120;
+    width: 120%;
+}
+
 .btn {
     display: flex;
     justify-content: center;
@@ -715,7 +721,7 @@ img#voltar:hover {
     right: 20px;
     width: 30px;
     height: 30px;
-    background-color:#b2d7c158;
+    
     text-decoration: none;
 }
 .btn::after {
@@ -739,9 +745,7 @@ img#voltar:hover {
     right: 20px;
     width: 70px;
     height: 70px;
-    background-color:#34af23;
     text-decoration: none;
-    border-radius: 50%;
     
 }
 .wha::after {
