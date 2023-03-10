@@ -209,9 +209,10 @@ h3#h3 {
 }
 
 /*ícones do ganha*/
-i#linkpdf {
+p#linkpdf {
+    text-align: center;
     color: #79239D;
-    font-size: 3.5em;
+    font-size: 2.5em;
     padding: 10px;
 }
 
