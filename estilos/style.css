@@ -62,7 +62,7 @@ header {
     /*border-bottom:  1px solid #48484822;*/
 }
 
-/*Econdendo a logo mobile firt*/
+/*Escondendo a logo mobile firt*/
 div#logo {
     display: none;
 }
@@ -73,7 +73,7 @@ p#burguer {
     color: #79239D;
     display: block;
     text-align: right;
-    padding: 10px 30px 10px 30px;
+    padding: 25px 50px 10px 30px;
     cursor: pointer;
     border-bottom: 1px solid #48484822; 
     font-size: 1.5em;
@@ -122,6 +122,27 @@ header > div > menu > a:hover {
     background-color: #f7f7f7;
     transform: scale(97%); 
 }
+
+/*imagens icones*/
+img#menuicon {
+    margin: auto;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+}
+
+
+img#diferencial {
+    text-align: center;
+    margin: auto;
+    height: 25px;
+    width: 25px;
+
+}
+
+
+
+
 
 /*main fundo principal*/
 
@@ -684,9 +705,9 @@ span#video {
 
 img#whats {
     margin: auto;
-    height: 25px;
-    width: 25px;
-    
+    height: 21px;
+    width: 21px;
+
 }
 
 /*Botão voltar ao topo*/
