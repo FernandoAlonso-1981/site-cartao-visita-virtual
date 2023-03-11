@@ -76,8 +76,16 @@
     overflow: hidden;
     font-size: smaller;
    } 
+
+   div#logohist {
+    column-count: 2;
+   }
     
-   
+   div#menucontato {
+    overflow: hidden;
+   }
+
+      
 
 }
 
