@@ -60,8 +60,22 @@
         overflow: hidden; 
     }
 
-     
+   div#contato1 {
+    column-count: 2;
+   }  
+
+   div#linkcontato {
+    overflow: hidden;
+   }
+
+   div#linkcontato1 {
+    overflow: hidden;
+   }
     
+   a#contato {
+    overflow: hidden;
+    font-size: smaller;
+   } 
     
    
 
