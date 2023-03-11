@@ -22,9 +22,13 @@
     img#imgcartao1 {
         display: none;
     }
-    
+
     div#h3ganha {
         column-count: 2;
+    }
+
+    p#linkpdf {
+        overflow: hidden;
     }
 
     div#imgcard {
@@ -35,7 +39,32 @@
     id#h3difere {
         column-count: 2;
     }
+
+    div#colunduvida {
+        column-count: 2;
+    }
+
+    div#duv1 {
+        overflow: hidden;
+    }
+
+    div#duv2 {
+        overflow: hidden;
+    }
     
+    h3#h3duv {
+        overflow: hidden;
+    }
+    
+    p#pduv {
+        overflow: hidden; 
+    }
+
+     
+    
+    
+   
+
 }
 
 
@@ -82,6 +111,10 @@
     }
 
     div#h3difere {
+        column-count: 2;
+    }
+
+    div#colunduvida {
         column-count: 2;
     }
 
