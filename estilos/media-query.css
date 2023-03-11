@@ -13,34 +13,16 @@
 
 @media screen and (min-width: 768px){
 
-   
-
-    header {
-        background-image: linear-gradient(#ffffff,   #29f23a);
-    }    
-
-    i#burguer {
-        display: none;
-    }
-
-    header > div > menu {
-        display: block;
-        
-    }
-
-    header > div > menu > a {
-        display: inline;
-    }
-
+    
     main {
         width: 80%;
         max-width: 1080px;
     }
 
-    div#h1princ {
-        column-count: 2;
+    img#imgcartao1 {
+        display: none;
     }
-
+    
     div#h3ganha {
         column-count: 2;
     }
@@ -61,7 +43,7 @@
 
     main {
         width: 80%;
-        max-width: 80%;
+        max-width: 1080px;
     }
 
     header {

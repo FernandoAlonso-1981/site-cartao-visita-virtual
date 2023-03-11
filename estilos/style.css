@@ -190,8 +190,8 @@ a#veja:hover {
 /*Css imagem do banner*/
 img#banner {
     margin: auto;
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 80%;
     display: block;
     padding: 20px 30px 40px 30px;
     
@@ -308,6 +308,15 @@ img#imgcartao {
     padding: 10px 0px 10px 0px;
 }
 
+img#imgcartao1 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;    
+    padding: 10px 0px 10px 0px;
+}
+
 /*Passar o mouse nos cartões*/
 img#imgcartao:hover{
     scale: 97%;
@@ -317,6 +326,13 @@ img#imgcartao:hover{
     height: auto;
 }
 
+img#imgcartao1:hover{
+    scale: 97%;
+    cursor: pointer;
+    transition: 0.3s;
+    width: auto;
+    height: auto;
+}
 
 /*parte dos botões abaixo das imagens de catões*/
 
