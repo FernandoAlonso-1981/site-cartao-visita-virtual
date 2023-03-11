@@ -511,12 +511,12 @@ h3#h3video1 {
 /*parte de clientes*/   
 
 div#clientes {
-    padding: 40px 0px 80px 0px;
+    padding: 0px;
     
 }
 
 div#cartoesfeitos {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     background-color: #ffffff;
 }
 
@@ -535,7 +535,7 @@ p#cartoesfeitos{
 }
 
 h2#h2cliente {
-    padding: 100px 20px 0px 20px;
+    padding: 40px 20px 20px 20px;
 }
 
 /*dividindo 2 colunas mobile first*/
@@ -572,6 +572,10 @@ div#imgcliente {
 
 /*área de contato*/
 
+h2#h2contato {
+    padding: 120px 20px 0px 20px;
+}
+
 div#imgcontato{
     width: auto;
     height: 100%;
@@ -589,7 +593,7 @@ img#contato {
 
 h3#contato {
     text-align: center;
-    padding: 30px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 i#contato {
