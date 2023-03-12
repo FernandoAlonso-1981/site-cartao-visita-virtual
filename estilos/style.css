@@ -58,6 +58,7 @@ header {
     margin: auto;
     text-align: center;
     width: auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     
     /*border-bottom:  1px solid #48484822;*/
 }
@@ -90,7 +91,7 @@ p#burguer:hover {
 
 
 /*Configuração do menu mobile first*/
-header > div > menu {
+header > div > div > menu {
     display: none;
     background-color: #ffffff;
     
@@ -105,7 +106,7 @@ header > div > menu {
 }
 
 /*Configuração dos links do menu mobile first*/
-header > div > menu > a {
+header > div > div > menu > a {
     display: block;
     margin: auto;
     background-color: #ffffff;
@@ -118,7 +119,7 @@ header > div > menu > a {
 }
 
 /*Configuração dos links do menu mobile first ao passar o mouse*/
-header > div > menu > a:hover {
+header > div > div> menu > a:hover {
     background-color: #f7f7f7;
     transform: scale(97%); 
 }
