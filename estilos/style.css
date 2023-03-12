@@ -254,6 +254,7 @@ a#whatsapp {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
+    max-width: 600px;
    
 }
 
@@ -593,7 +594,7 @@ div#imgcliente {
 /*área de contato*/
 
 h2#h2contato {
-    padding: 120px 20px 0px 20px;
+    padding: 60px 20px 0px 20px;
 }
 
 div#imgcontato{
@@ -612,6 +613,11 @@ img#contato {
 }
 
 h3#contato {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+h3#contatorede {
     text-align: center;
     padding: 40px 0px 0px 0px;
 }
@@ -691,11 +697,7 @@ a#contato1{
     font-weight: lighter;
 }
 
-img#pagamento {
-    width: auto;
-    height: auto;
-    padding: 40px;
-}
+
 
 img#selo {
     width: auto;
@@ -703,24 +705,52 @@ img#selo {
     padding: 0px 10px 40px 10px;
 }
 
+div#contato {
+    display: none;
+}
+
 footer#rodape {
     
-    background-color: #79239D;
+    background-color: #f7f7f7;
     margin: auto;
+    padding: 100px 20px 40px 40px;
 }
 
 footer > p {
-    padding: 7px;
-    color: white;
+
+    color: #484848;
     text-align: center;
     font-weight: bold;
     
 }
 
-footer > p > a {
-    color: #B2D7C1;
-
+.classdirodape {
+    overflow: hidden;
 }
+
+div#divrodape {
+    column-count: 1;
+}
+
+p#rodape {
+    padding: 0px;
+}
+
+
+
+img#pagamento {
+   
+    max-width: 100%;
+    height: auto;
+}
+
+img#pagamento1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
 
 span#video {
     color: #f7f7f7;
@@ -732,6 +762,20 @@ img#whats {
     height: 21px;
     width: 21px;
 
+}
+
+div#criado {
+    background-color: #79239D;
+}
+
+p#criado {
+    color: #f7f7f7;
+    text-align: center;
+}
+
+a#criado {
+    color: #f7f7f7;
+    font-weight: bold;
 }
 
 /*Botão voltar ao topo*/

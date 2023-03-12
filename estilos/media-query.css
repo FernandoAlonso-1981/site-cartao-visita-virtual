@@ -98,6 +98,19 @@
     overflow: hidden;
    }
    
+
+   div#contato {
+    display: none;
+}
+
+div#divrodape {
+    column-count: 2;
+}
+
+img#pagamento1 {
+    display: none;
+}
+   
 }
 
 
@@ -233,7 +246,7 @@
     div#h1princ {
         column-count: 2;
         overflow: hidden;
-        padding: 10px 0px 80px 0px;
+        padding: 10px 0px 30px 0px;
     }
 
     div#h1 {
@@ -290,12 +303,62 @@
         
     }
 
+    img#imgcartao1 {
+        display: block;
+    }
+
+
+    div#botoes{
+        column-count: 2;
+        padding: 5px 20px 60px 20px;
+    }
+
+
+
+
+
+    .difere {
+        overflow: hidden;
+    }
+
     div#h3difere {
         column-count: 2;
+        padding: 40px 0px 0px 0px;
+        
     }
+
+    div#video {
+        text-align: center;
+        overflow: hidden;
+        padding: 20px 20px 30px 20px;
+    }
+
+
 
     div#colunduvida {
         column-count: 2;
     }
 
+
+    div#videocontainer {
+        column-count: 2;
+    }
+
+    h3#h3video1 {
+        padding: 0px 0px 0px 40px;
+    }
+
+    div#contato {
+        display: none;
+    }
+
+    div#divrodape {
+        column-count: 4;
+    }
+
+    img#pagamento1 {
+        display: none;
+    }
+
+    
 }
