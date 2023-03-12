@@ -594,7 +594,7 @@ div#imgcliente {
 /*área de contato*/
 
 h2#h2contato {
-    padding: 60px 20px 0px 20px;
+    padding: 60px 0px 0px 0px;
 }
 
 div#imgcontato{
@@ -622,12 +622,7 @@ h3#contatorede {
     padding: 40px 0px 0px 0px;
 }
 
-i#contato {
-    font-size: 1.7em;
-    padding: 0px 20px 10px 10px;
-    color: #79239D;
 
-}
 
 a#contato {
     text-decoration: none;
@@ -641,6 +636,7 @@ p#contato {
     
     font-size: 1em;
     font-weight: bold;
+    padding: 0px;
    
 }
 
@@ -713,7 +709,7 @@ footer#rodape {
     
     background-color: #f7f7f7;
     margin: auto;
-    padding: 100px 20px 40px 40px;
+    padding: 100px 20px 40px 20px;
 }
 
 footer > p {
@@ -771,7 +767,7 @@ div#criado {
 p#criado {
     color: #f7f7f7;
     text-align: center;
-    
+
 }
 
 a#criado {
