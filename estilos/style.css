@@ -560,6 +560,9 @@ div#imgcliente1 {
     padding: 0px 20px 0px 20px;
 }
 
+div#clienteimg02 {
+    display: none;
+}
 
 
 div#imgcliente1 {

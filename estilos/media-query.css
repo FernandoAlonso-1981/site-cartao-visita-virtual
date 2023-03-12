@@ -60,8 +60,17 @@
         overflow: hidden; 
     }
 
+    div#clienteimg {
+        column-count: 2;
+    }
+
+    div#clienteimg02 {
+        display: block;
+    }
+
    div#contato1 {
     column-count: 2;
+    
    }  
 
    div#linkcontato {
@@ -81,12 +90,14 @@
     column-count: 2;
    }
     
-   div#menucontato {
+   img#contato {
+    text-align: center;
+    width: 80px;
+    height: 80px;   
+    padding: 0px 0px 0px 0px; 
     overflow: hidden;
    }
-
-      
-
+   
 }
 
 
