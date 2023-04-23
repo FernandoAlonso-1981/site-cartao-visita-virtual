@@ -7,7 +7,7 @@
     Roxo Claro = #A852B5
     Verde Escuro = #9BCCAF
     Verde claro = #B2D7C1
-    Verde WhatsApp = #34af23
+    Verde WhatsApp = #34af23 e #008000
 
    Fontes Usadas
     Ubuntu
@@ -198,6 +198,14 @@ img#banner {
     
 }
 
+img#bannerPortfolio {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: block;
+    padding: 60px 30px 20px 30px;
+}
+
 /*CSS h2*/
 div#h21{
     padding: 40px 40px 40px 40px;
@@ -244,7 +252,7 @@ p#linkpdf {
 a#whatsapp {
     margin: auto;
     display: block;
-    background-color: #34af23;
+    background-color: #008000;
     color: #f7f7f7;
     border: 2px solid;
     border-radius: 20px;
