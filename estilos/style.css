@@ -351,7 +351,7 @@ div#botoes{
 }
 
 div#portbutton{
-    column-count: 2;
+    /*column-count: 2;*/
     padding: 5px 20px 5px 20px;
 }
 
