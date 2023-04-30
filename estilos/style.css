@@ -346,12 +346,16 @@ img#imgcartao1:hover{
 
 /*parte dos botões abaixo das imagens de catões*/
 
+.botoes {
+    column-count: 2;
+}
+
 div#botoes{
     padding: 0px 10px 50px 10px;
 }
 
 div#portbutton{
-    /*column-count: 2;*/
+   /* column-count: 2;*/
     padding: 5px 20px 5px 20px;
 }
 
