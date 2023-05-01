@@ -141,7 +141,7 @@ img#pagamento1 {
     }
 
     div#portbutton{
-        /*column-count: 2;*/
+        column-count: 2;
         padding: 5px 20px 5px 20px;
         
     }
@@ -366,5 +366,13 @@ img#pagamento1 {
         display: none;
     }
 
+    .mapasite {
+        
+        column-count: 2;
+    }
+
+    p#rede {
+        padding: 0;
+    }
     
 }
