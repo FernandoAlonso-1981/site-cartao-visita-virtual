@@ -162,6 +162,13 @@ h1#h1{
 /*div da botão do banner*/
 div#aveja{
     padding: 50px;
+    
+}
+
+div#aveja1{
+    padding: 50px;
+    column-count: 2;
+    
 }
 
 /*Botão veja quem fez*/
@@ -346,9 +353,7 @@ img#imgcartao1:hover{
 
 /*parte dos botões abaixo das imagens de catões*/
 
-.botoes {
-    column-count: 2;
-}
+
 
 div#botoes{
     padding: 0px 10px 50px 10px;
