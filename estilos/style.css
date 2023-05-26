@@ -357,6 +357,11 @@ img#imgcartao1:hover{
 
 div#botoes{
     padding: 0px 10px 50px 10px;
+    
+    
+    justify-content: center;
+    display: contents;
+    
 }
 
 div#portbutton{
