@@ -270,8 +270,8 @@ a#whatsapp {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
-    max-width: 600px;
-   
+    max-width: 600px;   
+    z-index: 99999999;
 }
 
 /*passar o mouse Botão WhatsApp*/
