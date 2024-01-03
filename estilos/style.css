@@ -584,6 +584,10 @@ div#imgcliente1 {
     padding: 0px 20px 0px 20px;
 }
 
+#clienteimg{
+    columns: 1;
+}
+
 div#clienteimg02 {
     display: none;
 }
@@ -916,3 +920,6 @@ menu {
     
  */ 
 
+/* animação cliente imagens*/
+
+  /**************/

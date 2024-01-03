@@ -1,0 +1,17 @@
+/* Estilo para ocultar todos os slides por padrão */
+.mySlides {
+    display: none;
+  }
+  
+  /* Estilo para a imagem */
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Estilo para o contêiner do slideshow */
+  .slideshow-container {
+    max-width: 540px;
+    position: relative;
+    margin: auto;
+    /* animation: slideAnimation 5s infinite; Adiciona uma animação de slide com duração de 2 segundos e repetição infinita */
+  }

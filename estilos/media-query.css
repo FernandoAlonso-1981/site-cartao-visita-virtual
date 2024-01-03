@@ -61,7 +61,7 @@
     }
 
     div#clienteimg {
-        column-count: 2;
+        column-count: 3;
     }
 
     div#clienteimg02 {
@@ -381,3 +381,6 @@ img#pagamento1 {
     }
     
 }
+
+/* animacao cliente */
+
