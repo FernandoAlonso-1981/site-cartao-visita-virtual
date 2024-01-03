@@ -30,6 +30,7 @@
     box-sizing: border-box;
     font-display: swap;
 
+
 }
 
 /*Todos os paragrafos*/
@@ -552,6 +553,7 @@ h3#h3video1 {
 
 div#clientes {
     padding: 0px;
+    overflow: hidden;
     
 }
 

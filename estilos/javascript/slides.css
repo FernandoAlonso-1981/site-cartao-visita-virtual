@@ -3,11 +3,15 @@
 .mySlides {
   display: none;
   margin: 20px;
+  overflow: hidden;
+
 }
 
 /* Estilo para a imagem */
 img {
   vertical-align: middle;
+  overflow: hidden;
+
 }
 
 /* Estilo para o contêiner do slideshow */
@@ -15,5 +19,7 @@ img {
   max-width: 540px;
   position: relative;
   margin: auto;
+  overflow: hidden;
+
   /* animation: slideAnimation 5s infinite; Adiciona uma animação de slide com duração de 2 segundos e repetição infinita */
 }
