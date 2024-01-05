@@ -1,0 +1,30 @@
+/* Estilo para ocultar todos os slides por padrão */
+* {
+  background-color: #f7f7f7;
+}
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+  display: none;
+  width: 93%;
+}
+
+
+
+/* Estilo para a imagem */
+img {
+  vertical-align: middle;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow:7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
+  padding-top: 30px;    
+}
+
+/* Estilo para o contêiner do slideshow */
+.slideshow-container1 {
+  columns: 3;
+  width: 70%;
+  position: relative;
+  margin: auto;
+  /* animation: slideAnimation 5s infinite; Adiciona uma animação de slide com duração de 2 segundos e repetição infinita */
+}

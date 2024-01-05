@@ -19,7 +19,7 @@ styleElement.innerHTML = keyframes;
 document.head.appendChild(styleElement);
 
 // Aplica a animação ao elemento
-slideshowContainer.style.animation = 'slideAnimation 5s infinite';
+slideshowContainer.style.animation = 'slideAnimation 3.5s infinite';
 
 
 
@@ -41,6 +41,6 @@ function showSlides() {
   
   slides[slideIndex - 1].style.display = "block"; // Exibe o slide atual
   
-  setTimeout(showSlides, 5000); // Altera o slide a cada 5 segundos (5000 milissegundos)
+  setTimeout(showSlides, 3500); // Altera o slide a cada 5 segundos (5000 milissegundos)
 }
 
