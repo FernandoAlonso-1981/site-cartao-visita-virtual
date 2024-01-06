@@ -520,8 +520,13 @@ i#h3duv {
 
 i#h3duv:hover {
     cursor: pointer;
-    transform: scale(90%); 
+    transform: scale(120%); 
 }
+
+summary {
+    cursor: pointer;
+}
+
 
 strong#duv{
     color: #f7f7f7;
@@ -878,9 +883,8 @@ img#whatsapp {
     align-items: center;
     position: fixed;
     bottom: 93px;
-    right: 50px;
+    right: 21px;
     width: 75px;
-    height: 100px;
     text-decoration: none;
     z-index: 999999999999999;
 }
@@ -890,9 +894,6 @@ img#whatsapp {
     font-weight: bold;
     color: #f7f7f7;
     transition: margin-top 250ms;
-}
-.wha:hover::after {
-    margin-top:-8px;
 }
 
 a#wha:hover {
