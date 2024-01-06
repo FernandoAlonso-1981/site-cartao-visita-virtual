@@ -343,11 +343,8 @@ img#pagamento1 {
 
 
     div#videocontainer {
+        padding-top: 40px;
         column-count: 2;
-    }
-
-    h3#h3video1 {
-        padding: 0px 0px 0px 40px;
     }
 
     div#contato {
