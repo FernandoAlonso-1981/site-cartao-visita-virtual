@@ -23,6 +23,14 @@
         display: none;
     }
 
+
+    .slideshow-container1 {
+        columns: 3 ;
+        position: relative;
+        gap: 5%;
+        max-width: 99%;
+    }
+
     div#h3ganha {
         column-count: 2;
     }
@@ -140,11 +148,10 @@ img#pagamento1 {
         overflow: hidden;
     }
 
-    div#portbutton{
-        column-count: 2;
-        padding: 5px 0px 5px 0px;
-        
+    /* .h2divi{
+        padding: 20px 0px 0px 0px;
     }
+   */
 
     div#port1 {
         padding: 20px 80px 60px 80px;

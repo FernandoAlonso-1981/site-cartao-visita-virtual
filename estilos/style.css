@@ -228,6 +228,10 @@ h2#h2what {
 div#ganha {
     margin: auto;
     background-color: #ffffff;
+    width: 98%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
 }
 
 /*h3 dentro do ganha*/
@@ -262,7 +266,7 @@ a#whatsapp {
     display: block;
     background-color: #008000;
     color: #f7f7f7;
-    border: 2px solid;
+    border: 2.1px solid;
     border-radius: 20px;
     padding: 20px;
     text-decoration: none;
@@ -272,6 +276,7 @@ a#whatsapp {
     font-size: 1em;
     max-width: 600px;   
     z-index: 99999999;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
 }
 
 /*passar o mouse Botão WhatsApp*/
@@ -314,6 +319,8 @@ div#imgcartao {
     height: 100%;
     overflow: hidden;
     text-align: center;
+    padding: 10px 0px 10px 0px; 
+    
 }
 
 /*acertando as 2 imagens centralizadas*/
@@ -321,9 +328,11 @@ img#imgcartao {
     text-align: center;
     width: auto;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;    
-    padding: 10px 0px 10px 0px;
+    max-width: 98%;
+    max-height: 100vh; 
+    border-radius: 10px;   
+    /* padding: 10px 0px 10px 0px;  */
+    box-shadow: 7px 7px 3px -6px rgba(30, 30, 30, 0.75) ;
 }
 
 img#imgcartao1 {
@@ -367,7 +376,7 @@ div#botoes{
 
 div#portbutton{
     column-count: 2;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 20px 57px 20px;
 }
 
 a#port {
@@ -375,7 +384,7 @@ a#port {
     display: block;
     background-color: #79239D;
     color: #f7f7f7;
-    border: 2px solid;
+    border: 2px solid #79239D;
     border-radius: 20px;
     padding: 1.4em 0px 1.4em 0px;
     text-decoration: none;
@@ -383,8 +392,7 @@ a#port {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8em;
-    
-    
+    box-shadow: 5px 5px 7px -3px rgba(30, 30, 30, 0.57) ;    
 }
 
 /*passar o mouse Botão veja quem fez*/
@@ -400,6 +408,9 @@ div#video {
 /*h3 dentro do diferencial*/
 div#diferencial {
     background-color: #ffffff;
+    width: 99%;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
 }
 
 div#h3difere {
@@ -429,7 +440,7 @@ a#video {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
-   
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
 }
 
 a#video:hover {
@@ -465,9 +476,10 @@ img#imgdifer {
 
 /*primeira parte div duvida*/
 div#duvidas {
-    margin: auto;
     background-color: #79239D;
+    width: 99%;
     
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.75) ;
 }
 
 /*h2 div*/
@@ -534,11 +546,14 @@ summary:hover {
 div#videos {
     padding: 40px 40px 80px 40px;
     background-color: #ffffff;
+    width: 99%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
 }
 
 div#h2video {
     text-align: center;
-    padding: 10px 0px 60px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 h3#h3video {
@@ -662,9 +677,9 @@ div#linkcontato {
 
 p#contato {
     
-    font-size: 1em;
-    font-weight: bold;
-    padding: 0px;
+    font-size: 1.06em;
+    font-weight: 500;
+    padding: 5px 0px 0px 0px;
    
 }
 
@@ -684,7 +699,7 @@ a#rede {
     margin: auto;
     display: block;
     background-color: #79239D;
-    color: #f7f7f7;
+    color: #f7f7f7  #79239D;
     border: 2px solid;
     border-radius: 20px;
     padding: 10px;
@@ -693,7 +708,7 @@ a#rede {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
-   
+    box-shadow: 5px 5px 7px -3px rgba(30, 30, 30, 0.57) ;    
 }
 
 a#rede:hover {
@@ -825,6 +840,7 @@ img#whatsapp {
     margin: auto;
     height: 120;
     width: 120%;
+    filter: drop-shadow(3px 7px 7px rgba(0, 0, 0, 0.75));
 }
 
 .btn {
@@ -836,7 +852,7 @@ img#whatsapp {
     right: 20px;
     width: 30px;
     height: 30px;
-    
+    z-index: 999999999999999999999;
     text-decoration: none;
 }
 .btn::after {
@@ -858,10 +874,10 @@ img#whatsapp {
     position: fixed;
     bottom: 93px;
     right: 20px;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 210px;
     text-decoration: none;
-    
+    z-index: 999999999999999;
 }
 .wha::after {
     /*content: "^";*/
@@ -875,7 +891,7 @@ img#whatsapp {
 }
 
 a#wha:hover {
-    scale: 90%;
+    scale: 120%;
 }
 
 span#wha {
@@ -884,44 +900,76 @@ span#wha {
     font-size: 2em;
 }
 
-
+.imagem-tremendo {
+    animation: tremer 1s ease-in-out infinite;
+  }
+  
+  @keyframes tremer {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-3px) rotate(-3deg);
+    }
+    50% {
+      transform: translateX(3px) rotate(3deg);
+    }
+    75% {
+      transform: translateX(-3px) rotate(-3deg);
+    }
+  }
 
 
 /*Botão voltar ao topo e botão whatsapp*/
 
+.imgTags{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 100px 0px;
+}
 
+/* Estilo para o contêiner do slideshow */
+.slideshow-container1 {
+    columns: 1;
+    position: relative;
+    max-width: 60%;
+}
 
-/*testanado contador*/
-
-
-
-/*
-menu {
-    animation-duration: 2s;
-    
-    transition: transform 0.3s ease;
-    
-
-    animation-name: slidein
-  }
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+  display: none;
   
-  @keyframes slidein {
-    
-    from {
-      margin-top: 50%;
-      width: 20vw;
-    }
-  
-    to {
-      margin-top: 0% ;
-      width: 70vw;
-    }
-   
+}
 
-    }
-    
- */ 
+/* Estilo para a imagem */
+img#imgSlideNFC {
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 100%;
+    box-shadow:7px 7px 7px -7px rgba(30, 30, 30, 0.57) ;
+}
 
-/* animação cliente imagens*/
+img#imgSlideCliente {
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  overflow: hidden;
+}
 
-  /**************/
+
+
+.estilosCliente{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 540px ; 
+  position: relative;
+  overflow: hidden ;
+  z-index: 0;
+}
+
+

@@ -20,12 +20,7 @@ img#imgSlideNFC {
   
 }
 
-img#imgSlideCliente {
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  overflow: hidden;
-}
+
 
 /* Estilo para o contêiner do slideshow */
 .slideshow-container1 {
@@ -45,6 +40,13 @@ img#imgSlideCliente {
   position: relative;
   overflow: hidden ;
   z-index: 0;
+}
+
+img#imgSlideCliente {
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
 
