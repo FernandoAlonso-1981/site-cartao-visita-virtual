@@ -154,10 +154,14 @@ main {
 
 
 h1#h1{
-
-    padding: 40px 40px 40px 40px;
-    text-align: center;
     
+    padding: 40px 40px 0px 40px;
+    text-align: center;
+}
+
+.h1child{
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 /*div da botão do banner*/
@@ -199,11 +203,8 @@ a#veja:hover {
 /*Css imagem do banner*/
 img#banner {
     margin: auto;
-    width: 80%;
-    height: 80%;
-    display: block;
-    padding: 20px 30px 40px 30px;
-    
+    width: 90%;
+    display: block;    
 }
 
 img#bannerPortfolio {
@@ -287,6 +288,11 @@ a#whatsapp:hover {
 
 
 /*Paragrafo do texto debaixo do h2 casos*/
+
+div#casos{
+    padding-top: 60px ;
+}
+
 
 p#casos {
     text-align: center;
@@ -925,16 +931,18 @@ span#wha {
 .imgTags{
     text-align: center;
     display: flex;
+    
     align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    padding: 0px 0px 100px 0px;
+    padding: 30px 0px 100px 0px;
 }
 
 /* Estilo para o contêiner do slideshow */
 .slideshow-container1 {
     columns: 1;
     position: relative;
-    max-width: 60%;
+    max-width: 75%;
 }
 
 .mySlides1,
@@ -947,9 +955,9 @@ span#wha {
 /* Estilo para a imagem */
 img#imgSlideNFC {
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #f7f7f7;
     max-width: 100%;
-    box-shadow:7px 7px 7px -7px rgba(30, 30, 30, 0.57) ;
+    box-shadow:7px 7px 7px -7px rgba(30, 30, 30, 0.57) inset ;
 }
 
 img#imgSlideCliente {
