@@ -27,7 +27,7 @@
     .slideshow-container1 {
         columns: 3 ;
         position: relative;
-        gap: 3%;
+        gap: 3.4%;
         max-width: 90%;
     }
 
