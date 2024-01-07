@@ -908,27 +908,31 @@ span#wha {
 .imgTags{
     text-align: center;
     display: flex;
-    
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
-    padding: 48px 0px 10px 0px;
+    padding-top: 48px;
 }
 
 /* Estilo para o contêiner do slideshow */
 .slideshow-container1 {
-    columns: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    max-width: 75%;
+    
 }
 
 .mySlides1,
 .mySlides2,
 .mySlides3 {
      display: none;
+     margin: 0px 30px;
 }
 
 .h3ganhaNFC{
+    max-width: 100% !important;
     padding-bottom: 30px;
     overflow: hidden;
 }

@@ -19,19 +19,7 @@
         max-width: 1080px;
     }
 
-    img#imgcartao1 {
-        display: none;
-    }
-
-
-    .slideshow-container1 {
-        columns: 3 ;
-        position: relative;
-        gap: 3.4%;
-        max-width: 90%;
-    }
-
-    div#h3ganha {
+       div#h3ganha {
         column-count: 2;
     }
 
@@ -40,7 +28,7 @@
     }
 
     div#imgcard {
-        column-count: 3;
+        column-count: 2;
         
     }
 
@@ -287,26 +275,30 @@ img#pagamento1 {
         overflow: hidden;
     }
 
-    div#h3ganha {
-        column-count: 4;
-        
+    img#imgcartao1 {
+        display: none;
     }
 
+    .subNFC{
+        columns: 3;
+    }
 
+    div#h3ganha {
+        column-count: 4;
+    }
+    
     .h3ganha3 {
         overflow: hidden;
     }
 
     div#imgcard {
         column-count: 5;
-        
     }
 
     img#imgcartao1 {
         display: block;
     }
 
-  
     .botoes {
         column-count: 2;
     }
@@ -316,9 +308,6 @@ img#pagamento1 {
         padding: 5px 30px 60px 30px;
     }
 
-
-
-
     .difere {
         overflow: hidden;
     }
@@ -326,7 +315,6 @@ img#pagamento1 {
     div#h3difere {
         column-count: 2;
         padding: 40px 0px 0px 0px;
-        
     }
 
     div#video {
@@ -335,12 +323,9 @@ img#pagamento1 {
         padding: 20px 20px 30px 20px;
     }
 
-
-
     div#colunduvida {
         column-count: 2;
     }
-
 
     div#videocontainer {
         padding-top: 40px;
@@ -360,14 +345,12 @@ img#pagamento1 {
     }
 
     .mapasite {
-        
         column-count: 2;
     }
 
     p#rede {
         padding: 0;
     }
-    
 }
 
 /* animacao cliente */
