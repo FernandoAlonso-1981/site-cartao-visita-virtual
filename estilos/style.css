@@ -36,7 +36,7 @@ P {
     line-height: 1.5em;
     padding: 0px 30px 0px 30px;
     line-height: 1.8em;
-    font-size: 1.05em;
+    font-size: 1.08em;
 }
 
 /*Configuração html e body*/
@@ -925,8 +925,12 @@ span#wha {
 .mySlides1,
 .mySlides2,
 .mySlides3 {
-  display: none;
-  
+     display: none;
+}
+
+.h3ganhaNFC{
+    padding-bottom: 30px;
+    overflow: hidden;
 }
 
 /* Estilo para a imagem */
@@ -938,20 +942,20 @@ img#imgSlideNFC {
 }
 
 img#imgSlideCliente {
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
 }
 
 .estilosCliente{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  max-width: 540px ; 
-  position: relative;
-  overflow: hidden ;
-  z-index: 0;
-  max-width: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 540px ; 
+    position: relative;
+    overflow: hidden ;
+    z-index: 0;
+    max-width: 90%;
 }
