@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+
     <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204985827-1"></script>
         <script>
@@ -31,22 +31,23 @@
         })(window,document,'script','dataLayer','GTM-WXWRM8W');</script>
     <!-- End Google Tag Manager -->
 
-    <meta property="og:title" content="Cartão de Visita interativo - Seu novo cartão de Visita" />
+    <meta property="og:title" content="Cartão de Visita Digital - Seu novo cartão de Visita" />
     <meta property="og:type" content="website" />
-    <meta property=”og:site_name” content="Cartão de Visita interativo"/>
+    <meta property=”og:site_name” content="Cartão de Visita Digital"/>
     <meta property="og:url" content="https://cartaovirtualdevisita.com.br/" />
     <!--<meta property=”fb:admins” content=”werockcontent″/> essa tag aponta para  facebook quem é o dono da página -->
     <meta property="og:image" content="https://cartaodevisitavirtual.com.br/wp-content/uploads/sites/32/2023/03/cartao-de-visita-virtual-url.webp"/>
-    <meta property="og:description" content="Cartão de Visita Virtual - Seu novo Cartão de Visitas, Interativo, Digital, Online e Virtual. Com Botão Salvar Contato, link e QR Code. Solicite agora o seu e não fique desatualizado." />
+    <meta property="og:description" content="Cartão de Visita Digital - Seu novo Cartão de Visitas, Interativo, Digital, Online e Virtual. Com Botão Salvar Contato, link e QR Code. Solicite agora o seu e não fique desatualizado." />
 
+
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow"> 
 
     <!--Tag de Descrição, Autor e palavras chaves para SEO do site-->
-    <meta name="author" content="Vovô Soluções - Marketing interativo" />
+    <meta name="author" content="Vovô Soluções - Marketing Digital" />
     <meta name="keywords" content="cartão de visita virtual, cartão de visita interativo, cartão de visita digital, cartão de visita online, cartão de visita whatsapp, cartão interativo, cartão virtual, cartão digital, cartão de visita" />
-    <meta name="description" content="Cartão de Visita Virtual - Seu novo Cartão de Visitas, Interativo, Digital, Online e Virtual. Com Botão Salvar Contato, link e QR Code." />
+    <meta name="description" content="Cartão de Visita Digital - Seu novo Cartão de Visitas, Interativo, Digital, Online e Virtual. Com Botão Salvar Contato, link e QR Code." />
     
     <link rel="shortcut icon" href="imagens/favicon-cartao-de-visita-virtual.png" type="image/x-icon"> <!-- Chamada Favicon -->
     <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  CSS ícones Google -->
@@ -55,12 +56,16 @@
     <!-- <link rel="preload" href="estilos/style.css" as="style">
     <link rel="preload" href="estilos/media-query.css" as="media-query"> -->
 
+    
     <link rel="stylesheet" href="estilos/style.css"> <!-- Chamada CSS - Principal -->
     <link rel="stylesheet" href="estilos/media-query.css"> <!-- -->
-    
+    <link rel="stylesheet" href="estilos/javascript/slides.css"> <!-- -->
+
     <link rel="canonical" href="https://cartaovirtualdevisita.com.br/" /><!-- Página canocia -->
 
-    <title>Cartão de Visita interativo - Seu novo cartão de Visita</title>
+    <script src="scripts.js"></script> <!--chamr Scripts-->
+    
+    <title>Cartão de Visita Digital - Seu novo cartão de Visita</title>
 </head>
 <body onresize="mudouTamanho()">
 
@@ -72,26 +77,26 @@
     <a href="#" class="btn"><img id="voltar" src="imagens/seta-para-recolher-100-min.png" alt="Voltar ao Topo" loading="lazy"></a> <!--Botão Voltar ao topo-->
     
     <a id="wha" class="wha" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank" >
-        <img id="whatsapp" class="imagem-tremendo" src="imagens/icons8-whatsapp-94-min.png" alt="WahtsApp Flutuante" loading="lazy">
+        <img id="whatsapp" src="imagens/icons8-whatsapp-94-min.png" alt="WahtsApp Flutuante" loading="lazy">
     </a> <!--Botão WhatsApp flutuante-->
     
     <header class="smaller">
             <div id="header1">
                 <div id="logo">
-                    <img id="logo" src="imagens/Cartao-de-Visita-virtual-logomarca.png" alt="Logomarca Cartão de Visita interativo" loading="lazy">
+                    <img id="logo" src="imagens/Cartao-de-Visita-Virtual-logomarca.png" alt="Logomarca Cartão de Visita Digital" loading="lazy">
                 </div>
                 <div class="menu" id="menu">
                     <!--<i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>-->
                     <p id="burguer" onclick="clickMenu()"><img id="menuicon" src="imagens/icons8-menu-arredondado-64.png" alt="Menu"></p>
                     <menu id="itens">
                         <a id="menu" href="#main"><strong>Home</strong></a>
-                        <a id="menu" href="#vantagensgannha"><strong>Vantagens</strong></a>
+                        <a id="menu" href="#ganha"><strong>Vantagens</strong></a>
                         <a id="menu" href="#casos"><strong>Portfólio</strong></a>
                         <a id="menu" href="#diferencial"><strong>Diferencial</strong></a>
                         <a id="menu" href="#duvidas"><strong>Dúvidas</strong></a>
                         <a id="menu" href="#videos"><strong>Vídeos</strong></a>
                         <a id="menu" href="#clientes"><strong>Clientes</strong></a>
-                        <a id="menu" href="#rodapeContato"><strong>Contato</strong></a>
+                        <a id="menu" href="#rodape"><strong>Contato</strong></a>
                     </menu>
                 </div>
             </div>
@@ -101,9 +106,8 @@
         <div id="main">
             <div id="h1princ">
                 <div id="h1">
-                    <h1 id="h1">Cartão de Visita interativo </h1>
-                    <h2 class="h1child">Apenas<strong style="color: #79239D; font-weight: bolder;"> R$49,90</strong></h2>
-                    <p><strong>Seu cliente a um clique do seu negócio, não gaste mais com papel, salve seu contato na agenda do seu cliente.</strong> Cartão 100% interativo em <strong>Link e PDF. Apenas R$49,90.</strong> Não é promoção, é o preço real. O mais barato do mercado, <strong>taxa única sem mensalidade.</strong> O Cartão de Visita mudou, agora ele é Interativo, Online, Virtual e Digital. <strong>Fazemos um Cartão de Visita interativo Personalizado pra Você!</strong> </p>
+                    <h1 id="h1">Cartão de Visita Digital</h1>
+                    <p><strong>Seu cliente a um clique do seu negócio, não gaste mais com papel, salve seu contato na agenda do seu cliente.</strong> Cartão 100% Digital em <strong>Link e PDF. Apenas R$49,90.</strong> Não é promoção, é o preço real. O mais barato do mercado, <strong>taxa única sem mensalidade.</strong> O Cartão de Visita mudou, agora ele é Interativo, Online, Virtual e Digital. <strong>Fazemos um Cartão de Visita Digital Personalizado pra Você!</strong> </p>
                     <div id="aveja1">
                         <div id="port">
                             <a id="port" href="portfolio.html" target="_parent">Portfólio</a>
@@ -112,95 +116,21 @@
                             <a id="port" href="categorias.html" target="_parent">Categorias</a>
                         </div>
                     </div>
-                    
                 </div>
-                
                 <div id="img1">
-                    <img id="banner" src="imagens/cartao_de_visita_virtual_banner540-min.png" alt="Cartão de Visita interativo" loading="lazy">
+                    <img id="banner" src="imagens/cartao-de-visita-virtual-banner.png" alt="Cartão de Visita Digital" loading="lazy">
                 </div>
             </div>
-
             <div id="ganha">
-                <div class="imgTags">
-                    <div id="h21">
-                        <h2 class="h2divi">Itens opcionais por apenas + <strong style="color: #79239D; font-weight: bolder;">R$19,90</strong> cada</h2>
-                    </div>
-                    
-                    <div class="subNFC">
-                        <div style="overflow: hidden;">
-                            <div class="slideshow-container1">
-                                <div class="mySlides1">
-                                    <img id="imgSlideNFC" src="imagens/chaveiro-nfc-01.webp">
-                                </div>
-                                <div class="mySlides1">
-                                    <img id="imgSlideNFC" src="imagens/chaveiro-nfc-02.webp">
-                                </div>
-                                <div class="mySlides1">
-                                    <img id="imgSlideNFC" src="imagens/chaveiro-nfc-03.webp">
-                                </div>
-                            </div>
-                        <div class="h3ganhaNFC">
-                                <h3 id="h3">Chaveiro por aproximação NFC</h3>
-                                <p>Tenha seu cartão de visita interativo sempre à mão! <strong>Com o Chaveiro NFC, basta aproximar do seu celular para acessar instantaneamente seu cartão.</strong> Sem complicações, sem digitação de endereços. Rápido e prático. <strong>Leve seu cartão de visita interativo para qualquer lugar</strong>, a qualquer momento, apenas aproximando!</p>
-                            </div>
-                        </div>
-                        <div style="overflow: hidden;">
-                            <div class="slideshow-container1">
-                                <div class="mySlides2">
-                                    <img id="imgSlideNFC" src="imagens/adesivo-nfc-01.webp">
-                                </div>
-                                <div class="mySlides2">
-                                    <img id="imgSlideNFC" src="imagens/adesivo-nfc-02.webp">
-                                </div>
-                                <div class="mySlides2">
-                                    <img id="imgSlideNFC" src="imagens/adesivo-nfc-04.webp">
-                                </div>
-                            </div>
-                            <div class="h3ganhaNFC">
-                                <h3 id="h3">Adesivo por aproximação NFC</h3>
-                                <p>Transforme seu celular em um portal para seu cartão de visita interativo! <em>(Sugerimos colocar o adesivo na capa do celular).</em> <strong>Com o Adesivo NFC, basta aproximar seu próprio celular em outro que tenha a tecnologia NFC</strong> e instantaneamente seu cartão de visita interativo estára no smartphone do seu cliente. Sem abrir aplicativos, sem perder tempo. <strong>Acesse rapidamente informações importantes apenas aproximando, a qualquer hora e em qualquer lugar.</strong></p>
-                            </div>
-                        </div>
-                        <div style="overflow: hidden;">
-                            <div class="slideshow-container1">
-                                <div class="mySlides3">
-                                    <img id="imgSlideNFC" src="imagens/tag-nfc-01.webp">
-                                </div>
-                                <div class="mySlides3">
-                                    <img id="imgSlideNFC" src="imagens/tag-nfc-02.webp">
-                                </div>
-                                <div class="mySlides3">
-                                    <img id="imgSlideNFC" src="imagens/tag-nfc-03.webp">
-                                </div>
-                            </div>
-                            <div class="h3ganhaNFC">
-                                <h3 id="h3">TAG por aproximação NFC</h3>
-                                <p>Potencialize o acesso ao seu cartão de visita interativo! <strong>Com a Tag NFC Adesiva, coloque-a em qualquer lugar conveniente e tenha acesso instantâneo ao seu cartão apenas aproximando o smartphone.</strong> Prático, rápido e sem esforço. Leve sua experiência online para o próximo nível, bastando uma simples aproximação na tag NFC adesiva.</p>
-                            </div>
-                    </div>
-                    </div>
-                    
-
-                </div>
-
-                <div id="calltoaction">
-                    <div id="aveja">
-                        <h2 id="h2what">Peça agora cartão R$49,90 + tecnologia por aproximação NFC R$19,90</h2>
-                        <p id="casos1"><em style="color: red;">*Importante que o celular do seu cliente tenha a tecnologia de aproximação por NFC</em></p>
-                        <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1,%20tudo%20bem?%20Gostaria%20de%20solicitar%20meu%20cart%C3%A3o%20de%20visita%20virtual,%20mais%20a%20tecnologia%20de%20aproxima%C3%A7%C3%A3o%20por%20NFC." target="_blank">Chame no WhatsApp e solicite agora seu cartão + tecnologia por aproximação NFC</a>
-                    </div>
-                </div>
-
-                <div id="vantagensgannha" style="padding-top: 60px;"></div>
                 <div id="h21">
-                    <h2 class="h2divi">O que você ganha com o Cartão de Visita interativo</h2>
+                    <h2 class="h2divi">O que você ganha com o Cartão de Visita Digital</h2>
                 </div>
             
                 <div id="h3ganha">
                     <div class="h3ganha3">
                         <p id="linkpdf"><img id="ganhaicons" src="imagens/icons8-link-64.png" alt="Link"><img src="imagens/icons8-pdf-64.png" alt="PDF" loading="lazy"></p>
                         <h3 id="h3">Link e PDF</h3>
-                        <p><strong>Receba o cartão em formato de URL (link) e PDF</strong>, com o <strong>link</strong> você pode compartilhar seu cartão em redes sociais, sites, blogs e muito mais. O <strong>PDF</strong> é um documento interativo, compatível com as principais plataformas Online. Uma forma moderna e interativa de se relacionar com seus clientes.</p>
+                        <p><strong>Receba o cartão em formato de URL (link) e PDF</strong>, com o <strong>link</strong> você pode compartilhar seu cartão em redes sociais, sites, blogs e muito mais. O <strong>PDF</strong> é um documento digital, compatível com as principais plataformas Online. Uma forma moderna e interativa de se relacionar com seus clientes.</p>
                     </div>
                     <div class="h3ganha3">
                         <p id="linkpdf"><img id="ganhaicons" src="imagens/icons8-adicionar-grupo-de-usuarios-mulher-homem-64.png" alt="Salvar Contato" loading="lazy"></p>
@@ -210,13 +140,13 @@
                     <div class="h3ganha3">
                         <p id="linkpdf"><img id="ganhaicons" src="imagens/icons8-codigo-qr-64.png" alt="QR Code" loading="lazy"></p>
                         <h3 id="h3">QR Code</h3>
-                        <p><strong>Você pode compartilhar seu cartão de visita interativo utilizando um QR CODE</strong>, além disso <strong>o QR Code pode ser usado no layout para compartilhar suas informações, como salvar contato,</strong> links e outros. Use o QR Code, como uma rápida ferramenta de leitura. Agilizando sua forma de interagir com o seu cliente.</p>
+                        <p><strong>Você pode compartilhar seu cartão de visita Digital utilizando um QR CODE</strong>, além disso <strong>o QR Code pode ser usado no layout para compartilhar suas informações, como salvar contato,</strong> links e outros. Use o QR Code, como uma rápida ferramenta de leitura. Agilizando sua forma de interagir com o seu cliente.</p>
                     </div>
                     <div class="h3ganha3">
                         <p id="linkpdf"><img id="ganhaicons" src="imagens/icons8-smartphone-touchscreen-64-min.png" alt="Compartilhe Fácil" loading="lazy"></p>
                         <h3 id="h3">Atalho do Cartão na tela Inicial do Smartphone</h3>
                         <p>
-                            Isso mesmo, <strong>usa Android e Iphone?</strong> Não tem problema, <strong>dá para colocar um atalho do seu cartão de visita interativo em Link, na tela inicial do seu Smartphone</strong>. No android usando o Google Chrome e no Iphone usando o Safari. Veja na seção vídeos.
+                            Isso mesmo, <strong>usa Android e Iphone?</strong> Não tem problema, <strong>dá para colocar um atalho do seu cartão de visita Digital em Link, na tela inicial do seu Smartphone</strong>. No android usando o Google Chrome e no Iphone usando o Safari. Veja na seção vídeos.
                             <p>
                                 <br>
                                 <a id="port" href="#videos">Veja os vídeos</a>
@@ -234,28 +164,27 @@
                     <div class="h3ganha3">
                         <p id="linkpdf"><img id="ganhaicons" src="imagens/icons8-foguete-64.png" alt="Interação Total" loading="lazy"></p>
                         <h3 id="h3">Interação Total</h3>
-                        <p><strong>Compartilhe seu Cartão de Visita interativo via QR Code</strong>, compartilhe <strong>via WhatsApp (sem precisar do número do cliente salvo na sua agenda)</strong> e compartilhe também <strong>através de link.</strong> Ferramenta exclusiva para <strong>auxiliar o acesso de seus clientes ao seu cartão de visita interativo rapidamente</strong>.</p>
+                        <p><strong>Compartilhe seu Cartão de Visita Digital via QR Code</strong>, compartilhe <strong>via WhatsApp (sem precisar do número do cliente salvo na sua agenda)</strong> e compartilhe também <strong>através de link.</strong> Ferramenta exclusiva para <strong>auxiliar o acesso de seus clientes ao seu cartão de visita Digital rapidamente</strong>.</p>
                     </div>
                     <div class="h3ganha3">
                         <p id="linkpdf"><img id="ganhaicons" src="imagens/icons8-floresta-64.png" alt="Ecológico" loading="lazy"></p>
                         <h3 id="h3">Ecológico</h3>
-                        <p><strong>Seu Cartão de Visita virtual é 100% interativo, econômico e ecológico</strong>. Em outras palavras, <strong>aumente o poder de prospecção sem aumentar o custo do seu negócio economizando papel e ajudando a natureza</strong>. Seu negócio agora é sustentável, não utilize plástico nem papel, contribua com um planeta melhor.</p>
+                        <p><strong>Seu Cartão de Visita Digital é 100% virtual, econômico e ecológico</strong>. Em outras palavras, <strong>aumente o poder de prospecção sem aumentar o custo do seu negócio economizando papel e ajudando a natureza</strong>. Seu negócio agora é sustentável, não utilize plástico nem papel, contribua com um planeta melhor.</p>
                     </div>
                     <div class="h3ganha3">
                         <p id="linkpdf"><img id="ganhaicons" src="imagens/icons8-configuracoes-64.png" alt="Personalizado" loading="lazy"></p>
                         <h3 id="h3">Personalizado</h3>
-                        <p><strong>Seu cartão de Visita interativo totalmente personalizado,</strong> é só enviar seus dados, como: logomarca, foto e os dados que precisa no cartão como: WhatsApp, telefone, endereço, redes sociais, sites, etc. <strong>Construímos de acordo com sua necessidade e com as ferramentas mais atuais da internet</strong>.</p>
+                        <p><strong>Seu cartão de Visita Digital totalmente personalizado,</strong> é só enviar seus dados, como: logomarca, foto e os dados que precisa no cartão como: WhatsApp, telefone, endereço, redes sociais, sites, etc. <strong>Construímos de acordo com sua necessidade e com as ferramentas mais atuais da internet</strong>.</p>
                     </div>
                     
                 </div>
                 <div id="calltoaction">
                     <div id="aveja">
-                        <h2 id="h2what">Seu cartão por apenas <strong style="color: #79239D; font-weight: bolder;">R$49,90</strong></h2>
+                        <h2 id="h2what">Apenas R$49,90</h2>
                         <p id="casos1">Taxa única, sem mensalidade</p>
                         <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><img id="whats" src="imagens/icons8-whatsapp-64-.png" alt=""> &nbsp; &nbsp;Chame no WhatsApp</a>
                     </div>
                 </div>
-
             </div>
             <div id="casos">
                 <div id="h21">
@@ -265,52 +194,52 @@
                 <div id="imgcard">
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/04/10/dra-beatriz-lima-medicina-e-dermatologia/" target="_blank">
-                            <img id="imgcartao" src="imagens/Dra-Beatriz-Lima-Medicina-e-Dermatologia-Cartao-de-Visita-Virtual.jpg" alt="Dra. Beatriz Lima - Cartão de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Dra-Beatriz-Lima-Medicina-e-Dermatologia-Cartao-de-Visita-Virtual.jpg" alt="Dra. Beatriz Lima - Cartão de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/10/13/aluisio-nogueira-de-almeida-almeida-santos-advogados-associados/" target="_blank">
-                            <img id="imgcartao" src="imagens/Aluisio-Nogueira-de-Almeida-Almeida-Santos-Advogados-Associados-Cartao-de-Visita-Virtual.jpg" alt="Almeida e Santos Advogados - Cartão de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Aluisio-Nogueira-de-Almeida-Almeida-Santos-Advogados-Associados-Cartao-de-Visita-Virtual.jpg" alt="Almeida e Santos Advogados - Cartão de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/10/05/perfect-polimentos-automotivos/" target="_blank">
-                            <img id="imgcartao" src="imagens/Perfect-Polimentos-Automotivos-Cartao-de-Visita-Virtual.jpg" alt="Perfect Polimentos Automotivos - Cartão de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Perfect-Polimentos-Automotivos-Cartao-de-Visita-Virtual.jpg" alt="Perfect Polimentos Automotivos - Cartão de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/04/12/nadya-mambelli-nutricionista-responsavel-tecnica/" target="_blank">
-                            <img id="imgcartao" src="imagens/Nadya-Mambelli-Nutricionista-Responsavel-Tecnica-Cartao-de-Visita-Virtual.jpg" alt="Nadya Mambelli Nutricionista - Cartao de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Nadya-Mambelli-Nutricionista-Responsavel-Tecnica-Cartao-de-Visita-Virtual.jpg" alt="Nadya Mambelli Nutricionista - Cartao de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/04/11/andre-pires-taxista-motorista/" target="_blank">
-                            <img id="imgcartao" src="imagens/Andre-Pires-Taxista-Cartao-de-Visita-Visita-Virtual.jpg" alt="Andre Pires Taxista - Cartao de Visita Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Andre-Pires-Taxista-Cartao-de-Visita-Visita-Virtual.jpg" alt="Andre Pires Taxista - Cartao de Visita Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/11/30/litoranea-desentupidora-e-dedetizadora/" target="_blank">
-                            <img id="imgcartao" src="imagens/Litoranea-Desentupidora-e-Dedetizadora-Cartao-de-Visita-Virtual.jpg" alt="Litorânea Desentupidora e Dedetizadora - Cartão de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Litoranea-Desentupidora-e-Dedetizadora-Cartao-de-Visita-Virtual.jpg" alt="Litorânea Desentupidora e Dedetizadora - Cartão de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/04/11/cartao-de-visita-virtual-seu-novo-cartao-de-visita/" target="_blank">
-                            <img id="imgcartao" src="imagens/CVV-Cartao-de-Visita-Virtual.jpg" alt="Cartão de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/CVV-Cartao-de-Visita-Virtual.jpg" alt="Cartão de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2023/02/17/rockskill/" target="_blank">
-                            <img id="imgcartao" src="imagens/Rockskill-Attitude-Style.jpg" alt="rockskill Attitude - Cartão de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Rockskill-Attitude-Style.jpg" alt="rockskill Attitude - Cartão de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/10/17/lizandra-dressel-fotografia/" target="_blank">
-                            <img id="imgcartao" src="imagens/Lizandra-Dressel-Fotografia.jpg" alt="Lizandra Dressel Fotografia - Cartão de Visita Virtual" loading="lazy">
+                            <img id="imgcartao" src="imagens/Lizandra-Dressel-Fotografia.jpg" alt="Lizandra Dressel Fotografia - Cartão de Visita Digital" loading="lazy">
                         </a>
                     </div>
                     <div id="imgcartao">
                         <a href="https://cartaodevisitavirtual.com.br/2022/10/11/thiago-santos-representante-comercial-tgs/" target="_blank">
-                            <img id="imgcartao" src="imagens/Thiago-Santos-Representante-Comercial.jpg" alt="Thiago Santos - Representante Comercial - TGS Soluções em Construção" loading="lazy">
+                            <img id="imgcartao1" src="imagens/Thiago-Santos-Representante-Comercial.jpg" alt="Thiago Santos - Representante Comercial - TGS Soluções em Construção" loading="lazy">
                         </a>
                     </div>
                 </div>
@@ -323,7 +252,10 @@
                             <a id="port" href="categorias.html" target="_parent">Categorias</a>
                         </div>
                     </div>
-                    <!--
+                       <!-- <div id="port">
+                            <a id="port" href="https://cartaodevisitavirtual.com.br/cartoesrecentes/" target="_blank">Recentes</a>
+                        </div>
+                    </div>
                     <div id="portbutton">
                         <div id="port">
                             <a id="port" href="https://cartaodevisitavirtual.com.br/categorias/advogados-cartao-de-visita-virtual/" target="_blank">Advogados</a>
@@ -352,7 +284,7 @@
             </div>
             <div id="diferencial">
                 <div id="h21">
-                    <h2 id="diferencial" idclass="diferencial">Diferencial do Cartão de Visita interativo</h2>
+                    <h2 id="diferencial" idclass="diferencial">Diferencial do Cartão de Visita Digital</h2>
                 </div>
                 <div class="difere">
                     <div id="h3difere">
@@ -364,13 +296,13 @@
                             <br>
                             <p><img id="diferencial" src="imagens/icons8-salvar-64.png" alt="Salvar Contato" loading="lazy"> Agora, basta seu cliente clicar em salvar e <strong>seu número estará na agenda dele.</strong> Serve para aparelhos Android e Iphone.</p>
                             <br>
-                            <p><img id="diferencial" src="imagens/icons8-codigo-qr-64.png" alt="QR Code" loading="lazy"> E não é só isso! Use no layout do seu cartão de visita interativo, <strong>um QR Code para o cliente salvar seu contato com a camêra do celular.</strong></p>
+                            <p><img id="diferencial" src="imagens/icons8-codigo-qr-64.png" alt="QR Code" loading="lazy"> E não é só isso! Use no layout do seu cartão de visita Digital, <strong>um QR Code para o cliente salvar seu contato com a camêra do celular.</strong></p>
                             <div id="video">
                                 <a id="video" href="https://youtu.be/LACTecvDwkU" target="_blank"><img id="diferencial" src="imagens/icons8-reproduzir-youtube-64.png" alt="Youtube" loading="lazy"> &nbsp; &nbsp;Veja como funciona</a>
                             </div>
                         </div>
                         <div class="difere" id="imgdifer">
-                            <img id="imgdifer" src="imagens/botao-salvar-contato.jpg" alt="Botão Salvar Contato - Cartão de Visita interativo" loading="lazy">
+                            <img id="imgdifer" src="imagens/botao-salvar-contato.jpg" alt="Botão Salvar Contato - Cartão de Visita Digital" loading="lazy">
                         </div>
                     </div>
                     <div id="h3difere">
@@ -378,25 +310,25 @@
                             <h3 id="h3">Interação Total</h3>
                             <p><img id="diferencial" src="imagens/icons8-codigo-qr-64.png" alt="QR Code" loading="lazy"> Tenha um QR Code Exclusivo do seu cartão para compartilhamento fácil e rápido,</strong> seu cliente ao ler o QR code já acessa o seu cartão.</p>
                             <br>
-                            <p><img id="diferencial" src="imagens/icons8-whatsapp-64.png" alt="WhatsApp" loading="lazy"> Não tem o contato de WhatsApp do seu cliente salvo no telefone?</strong> Não tem problema. Com o botão de compartilhar <strong>você só digita o número dele e já compartilha</strong> seu cartão de visita interativo</p>
+                            <p><img id="diferencial" src="imagens/icons8-whatsapp-64.png" alt="WhatsApp" loading="lazy"> Não tem o contato de WhatsApp do seu cliente salvo no telefone?</strong> Não tem problema. Com o botão de compartilhar <strong>você só digita o número dele e já compartilha</strong> seu cartão de visita Digital</p>
                             <br>
                             <p><img id="diferencial" src="imagens/icons8-link-64.png" alt="Link" loading="lazy"> No botão de <strong>link personalizado do seu cartão,</strong> você pode copiar e colar onde quiser, <strong>na Bio do Instagram, Facebook, Linkedin, Twitter, blog e outros.</strong></p>
                         </div>
                         <div class="difere" id="imgdifer">
-                            <img id="imgdifer" src="imagens/interacao-total.jpg" alt="Botão Salvar Contato - Cartão de Visita interativo" loading="lazy">
+                            <img id="imgdifer" src="imagens/interacao-total.jpg" alt="Botão Salvar Contato - Cartão de Visita Digital" loading="lazy">
                         </div>
                     </div>
                     <div id="h3difere">
-                        <h3 id="h3">Transforme seu cartão de visita de papel em interativo</h3>                       
+                        <h3 id="h3">Transforme seu cartão de visita de papel em Digital</h3>                       
                         <div class="difere">
-                            <p><img id="diferencial" src="imagens/icons8-configuracoes-64.png" alt="Cartão de Visita interativo Personalizado" loading="lazy"><strong> Montamos um cartão de visita interativo personalizado</strong> para você, de acordo com as cores da sua marca. <strong>Transforme seu cartão de visita de papel em cartão de visita interativo.</strong></p>
+                            <p><img id="diferencial" src="imagens/icons8-configuracoes-64.png" alt="Cartão de Visita Digital Personalizado" loading="lazy"><strong> Montamos um cartão de visita Digital personalizado</strong> para você, de acordo com as cores da sua marca. <strong>Transforme seu cartão de visita de papel em cartão de visita Digital.</strong></p>
                             <br>
                             <p><img id="diferencial" src="imagens/icons8-informacoes-64.png" alt="informações" loading="lazy"><strong> Para fazer seu cartão, nos envie</strong> sua logo, foto (se quiser), dados de contato como: WhatsApp, Telefone, Instagram, site, Facebook, etc.</p>
                             <br>
                             <p><img id="diferencial" src="imagens/icons8-varios-smartphones-64.png" alt="Montamos de 2 a 3 Layouts" loading="lazy"><strong> Montamos de 2 a 3 layouts para você aprovar</strong>, e pode modificar até ficar do seu jeito.</p>
                         </div>
                         <div class="difere" id="imgdifer">
-                            <img id="imgdifer" src="imagens/cartao-de-visita-virtual-personalizado.jpg" alt="Personalizado - Cartão de Visita interativo" loading="lazy">
+                            <img id="imgdifer" src="imagens/cartao-de-visita-virtual-personalizado.jpg" alt="Personalizado - Cartão de Visita Digital" loading="lazy">
                         </div>
                     </div>
                     <div id="h3difere">
@@ -404,17 +336,17 @@
                             <h3 id="h3">Montamos de 2 a 3 modelos</h3>
                             <p><img id="diferencial" src="imagens/icons8-varios-smartphones-64.png" alt="Montamos de 2 a 3 modelos" loading="lazy"> Isso mesmo, <strong>montamos de 2 a 3 modelos para você aprovar</strong>, tenha mais opções de escolha com o layout do seu cartão.</p>
                             <br>
-                            <p><img id="diferencial" src="imagens/icons8-configuracoes-64.png" alt="Personalizado" loading="lazy"><strong> O cartão de Visita interativo é personalizado de acordo com suas informações.</strong> Usamos as cores da sua logomarca e da sua empresa. A quantidade de botões é exata a que precisa, nem mais nem menos.</p>
+                            <p><img id="diferencial" src="imagens/icons8-configuracoes-64.png" alt="Personalizado" loading="lazy"><strong> O cartão de Visita Digital é personalizado de acordo com suas informações.</strong> Usamos as cores da sua logomarca e da sua empresa. A quantidade de botões é exata a que precisa, nem mais nem menos.</p>
                             <br>
-                            <p><img id="diferencial" src="imagens/icons8-informacoes-64.png" alt="informações" loading="lazy"><strong> Para fazer seu cartão de visita interativo é bem fácil, basta enviar as informações que precisa</strong> como logomarca, foto (se quiser), WhatsApp, Telefone,  Rede Social, Endereço, etc.</strong></p>
+                            <p><img id="diferencial" src="imagens/icons8-informacoes-64.png" alt="informações" loading="lazy"><strong> Para fazer seu cartão de visita Digital é bem fácil, basta enviar as informações que precisa</strong> como logomarca, foto (se quiser), WhatsApp, Telefone,  Rede Social, Endereço, etc.</strong></p>
                         </div>
                         <div class="difere" id="imgdifer">
-                            <img id="imgdifer" src="imagens/2-a-3-modelos-cartao-de-visita-virtual.jpg" alt="Montamos de 2 a 3 modelos - Cartão de Visita interativo" loading="lazy">
+                            <img id="imgdifer" src="imagens/2-a-3-modelos-cartao-de-visita-virtual.jpg" alt="Montamos de 2 a 3 modelos - Cartão de Visita Digital" loading="lazy">
                         </div>
                     </div>
                     <div id="calltoaction">
                         <div id="aveja">
-                            <h2 id="h2what">Seu cartão por apenas <strong style="color: #79239D; font-weight: bolder;">R$49,90</strong></h2>
+                            <h2 id="h2what">Apenas R$49,90</h2>
                             <p id="casos1">Taxa única, sem mensalidade</p>
                             <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><img id="whats" src="imagens/icons8-whatsapp-64-.png" alt="WhatsApp" loading="lazy"> &nbsp; &nbsp;Chame no WhatsApp</a>
                         </div>
@@ -424,15 +356,15 @@
             </div>
             <div id="duvidas">
                 <div id="h2duv">
-                    <h2 id="duvidas" class="diferencial">Dúvidas Frequentes sobre o Cartão de Visita interativo</h2> 
+                    <h2 id="duvidas" class="diferencial">Dúvidas Frequentes sobre o Cartão de Visita Digital</h2> 
                     <div id="colunduvida">
                         <div id="duv1">
-                            <h3 id="h3duv">O que é o cartão de Visita interativo?</h3>
+                            <h3 id="h3duv">O que é o cartão de Visita Digital?</h3>
                             <details>
                             <summary></summary>
-                                <p id="pduv">O cartão de visita interativo é um um link ou PDF com botões, que servem para seus clientes entrarem em contato com você instantaneamente. Nele você coloca o seu WhatsApp, telefone, site, redes sociais, etc.</p>
+                                <p id="pduv">O cartão de visita Digital é um um link ou PDF com botões, que servem para seus clientes entrarem em contato com você instantaneamente. Nele você coloca o seu WhatsApp, telefone, site, redes sociais, etc.</p>
                             </details>
-                            <h3 id="h3duv">Como funciona o Cartão de Visita interativo?</h3>
+                            <h3 id="h3duv">Como funciona o Cartão de Visita Digital?</h3>
                             <details>
                                 <summary></summary>
                                 <p id="pduv">O cartão de visita virutal serve para você apresentar seu negócio ou produto para clientes, parceiros e prospects. Ele pode ser compartilhado pelo WhatsApp e outras plataformas de maneira ilimitada, ou seja, cada link está associado a um botão, dessa forma, com apenas um clique, seu cliente já acessa a sua rede social, site, WhatsApp, endereço e ainda tem a possibilidade de salvar o seu contato na agenda dele.</p>
@@ -443,30 +375,30 @@
                                 <p id="pduv">O botão salvar contato serve para seu cliente colocar os seus dados de contato na agenda dele, de tal forma que fique simples e instantâneo. Dessa maneira, com apenas um clique, ou a leitura do QR CODE,  seus contatos já vão para o aparelho do seu cliente.</p>
                             </details>
                         
-                            <h3 id="h3duv">Posso usar QR CODE no Cartão de Visita interativo?</h3>
+                            <h3 id="h3duv">Posso usar QR CODE no Cartão de Visita Digital?</h3>
                             <details>
                                 <summary></summary>
-                                <p id="pduv">Sim. O QR CODE é um portador de link que pode ser acionado pela câmera do seu celular, sendo assim, nele você pode colocar a opção de salvar contato, site, WhatsApp e o que conter link.</p>
+                                <p id="pduv">O QR CODE é um portador de link que pode ser acionado pela câmera do seu celular, sendo assim, nele você pode colocar a opção de salvar contato, site, WhatsApp e o que conter link.</p>
                             </details>
-                            <h3 id="h3duv">O cartão de Visita interativo tem mensalidade?</h3>
+                            <h3 id="h3duv">O cartão de Visita Digital tem mensalidade?</h3>
                             <details>
                                 <summary></summary>
-                                <p id="pduv">Não, o cartão de visita interativo é pago somente uma vez, e mesmo assim pode ser usado ilimitadamente</p>
+                                <p id="pduv">Não, o cartão de visita Digital é pago somente uma vez, e mesmo assim pode ser usado ilimitadamente</p>
                             </details>
-                            <h3 id="h3duv">Como Contratar o Cartão de Visita interativo?</h3>
+                            <h3 id="h3duv">Como Contratar o Cartão de Visita Digital?</h3>
                             <details>
                                 <summary></summary>
                                 <p id="pduv">Para contratar é bem simples, no site tem vários botões de WhatsApp para entrar em contato, e no rodapé tem opção de Telegram. Para montagem do cartão é só enviar sua logo, foto, WhatsApp, telefone, endereço, e-mail, redes sociais, sites, etc. Realize o pagamento, envie o comprovante e enviamos para você de 2 a 3 modelos para aprovação.</p>
                             </details>
                         
-                            <h3 id="h3duv">O Cartão de Visita interativo tem algum limite de uso ou validade?</h3>
+                            <h3 id="h3duv">O Cartão de Visita Digital tem algum limite de uso ou validade?</h3>
                             <details>
                                 <summary></summary>
-                                <p id="pduv">Não, seu cartão de visita interativo pode ser usado ilimitadamente e por quanto tempo precisar.</p>
+                                <p id="pduv">Não, seu cartão de visita Digital pode ser usado ilimitadamente e por quanto tempo precisar.</p>
                             </details>     
                         </div>
                         <div id="duv2">
-                            <h3 id="h3duv">Como posso pagar o Cartão de Visita interativo?</h3>
+                            <h3 id="h3duv">Como posso pagar o Cartão de Visita Digital?</h3>
                             <details>
                                 <summary></summary>
                                 <p id="pduv">Trabalhamos com PIX, transferência, boleto e Mercado Pago.</p>
@@ -476,7 +408,7 @@
                                 <summary></summary>
                                 <p id="pduv">Se precisar, emitimos nota fiscal é só enviar seu CNPJ, ou dados pessoais. Todos os cartões do site e que iremos te apresentar no atendimento são reais, caso queira pedir referência do nosso serviço entre em contato com eles.</p>
                             </details>
-                            <h3 id="h3duv">Em quanto tempo fica pronto o Cartão de Visita interativo?</h3>
+                            <h3 id="h3duv">Em quanto tempo fica pronto o Cartão de Visita Digital?</h3>
                             <details>
                                 <summary></summary>
                                 <p id="pduv">Desde que, todos os dados necessários foram enviados em conformidade e o pagamento esteja realizado, pode levar “até” 2 dias úteis para a apresentação dos modelos, montamos de 2 a 3 modelos para você aprovar.</p>
@@ -488,7 +420,7 @@
                                 <p id="pduv">Sim, nós enviamos alguns modelos para você escolher e colocar no seu cartão, <strong id="duv">SEM CUSTO ADICIONAL</strong>. (As logomarcas são baseadas nos modelos que disponibilizamos, portanto, não fazemos layout de logomarca profissional).</p>
                             </details>
                         
-                            <h3 id="h3duv">Posso alterar o cartão de visita interativo, após ser feito?</h3>
+                            <h3 id="h3duv">Posso alterar o cartão de visita Digital, após ser feito?</h3>
                             <details>
                                 <summary></summary>
                                 <p id="pduv">1 ano de suporte sem custo para alterar os links de contato, exemplo: mudança de telefone, endereço, email e outros. Já o layout aprovado não é possível alterar, caso precise alterar, será cobrado de acordo com a alteração.</p>
@@ -502,111 +434,45 @@
                             <h3 id="h3duv">Funciona por aproximação?</h3>
                             <details>
                                 <summary></summary>
-                                <p id="pduv">Sim, com o uso do chaveiro, adesivo ou TAG NFC, apesar do Cartão de Visita interativo ser 100% Online e interativo, ele precisa de um terceiro para compartil via aproximação. Somos a favor de um mundo com menos papel e plástico, ajudando a nossa Mãe Natureza, o cartão de visita interativor pode ser compartilhado por WhastApp, link, etc. E lembre-se que temos o nosso compartilhamento especial no rodapé de todos os cartões.</p>
+                                <p id="pduv">Não, apesar do Cartão de Visita Digital ser 100% Online e Digital, sendo assim, não é cartão físico nem eletrônico, pois somos a favor de um mundo com menos papel e plástico, ajudando a nossa Mãe Natureza, mas como qualquer arquivo digital do seu celular pode ser compartilhado por WhastApp, link, etc. E lembre-se que temos o nosso compartilhamento especial no rodapé de todos os cartões.</p>
                             </details>
                         </div>
                     </div>                       
                 </div>
             </div>
-
-            <div id="duvidas">
-                <div id="h2duv">
-                    <h2 id="duvidas" class="diferencial">Dúvidas sobre aproximação por NFC</h2> 
-                    <div id="colunduvida">
-                        <div id="duv1">
-                            <h3 id="h3duv">Como identificar se um smartphone Android ou iPhone tem tecnologia NFC?</h3>
-                            <details>
-                            <summary></summary>
-                                <p id="pduv"><strong style="color: white;">Android: Abra o aplicativo "Configurações" do seu smartphone Android</strong>. 
-                                    <p id="pduv">
-                                        <strong style="color: white;">• Conexões sem fio e rede:</strong> Dentro das configurações, procure por "Conexões" ou "Rede e Internet". <br>
-                                        <strong style="color: white;">• Configurações de conexão:</strong> Toque na opção "NFC" ou "Conexão NFC" (Pode variar dependendo do modelo e versão do Android). <br>
-                                        <strong style="color: white;">• Verificação do NFC:</strong> Se o seu smartphone tiver NFC, você encontrará uma opção para habilitar ou desabilitar o NFC. Certifique-se de que essa opção está ativada. <br>
-                                    </p>
-                                </p>
-                                <p id="pduv"><strong style="color: white;">Iphone - iOS: Abra o aplicativo "Ajustes" no seu iPhone.</strong>
-                                    <p id="pduv">
-                                        <strong style="color: white;">• Configurações gerais:</strong> Role para baixo e procure por "Geral". <br>
-                                        <strong style="color: white;">• Informações sobre o dispositivo:</strong> Dentro das configurações gerais, procure por "Informações" ou "Sobre". <br>
-                                        <strong style="color: white;">• Verificação do NFC:</strong> Infelizmente, os iPhones não permitem que você verifique diretamente se o NFC está presente ou habilitado nas configurações. No entanto, a partir do iPhone 7, todos os modelos têm a capacidade de NFC ativada para uso com Apple Pay e algumas outras funcionalidades. <br>
-                                        <strong style="color: white;">• Para os usuários de iPhone</strong>, a função NFC é mais restrita e geralmente está disponível para uso com Apple Pay e algumas outras aplicações específicas da Apple. Para verificar se o seu iPhone é compatível com aplicativos que usam NFC, como Apple Pay, verifique as configurações de pagamento e acessórios conectados. <br>
-                                    </p>
-                                </p>
-                            </details>
-                            <h3 id="h3duv">Onde colocar o adesviou ou TAG NFC?</h3>
-                            <details>
-                            <summary></summary>
-                                <p id="pduv">
-                                    O adesivo e a TAG NFC podem ser colado em muitos lugares, como no seu celular, para sempre tê-lo por perto. Mas ao colar no celular ou na capa (indicamos colocar na capa para o adesivo não prejudicar o celular), é importante ter cuidado para não cobrir o local onde o celular usa a tecnologia NFC. Isso pode causar problemas ou ativar o cartão de visita interativo sem querer. <br>
-                                    Veja abaixo na imagem onde ficam as antenas de NFC do smartphone. 
-                                    <p><img style="max-width: 100%;" src="imagens/cartaodevisitavirtualareaNFC-min.webp" alt=""></p>
-                                </p>
-                            </details>
-                            
-                        </div>
-                        <div id="duv2">
-                            <h3 id="h3duv">Como usar o chaveiro NFC, adesivo ou TAG NFC no smartphone:?</h3>
-                            <details>
-                            <summary></summary>
-                                <p id="pduv">
-                                    <strong style="color: white;">1 - Localize a antena NFC:</strong> No seu smartphone, geralmente, a antena NFC está localizada na parte de trás do aparelho. Pode ser necessário verificar o manual do usuário ou pesquisar online para encontrar a posição exata no seu modelo específico de smartphone. <br>
-                                    <strong style="color: white;">2 - Identifique o local:</strong> Procure por uma área na parte traseira do smartphone onde a antena NFC pode ser detectada. Em muitos casos, essa área é indicada por um logotipo ou marcação específica, como "NFC". <br>
-                                    <strong style="color: white;">3 - Posicione o Chaveiro ou Adesivo NFC:</strong> Com cuidado, coloque suavemente o chaveiro NFC ou o adesivo NFC sobre a área da antena do seu smartphone. Certifique-se de alinhar corretamente o chaveiro ou adesivo com a região onde a antena NFC está localizada. <br>
-                                    <strong style="color: white;">4 - Toque para ativar:</strong> Uma vez que o chaveiro ou adesivo NFC está posicionado sobre a antena do smartphone, simplesmente toque suavemente essa área com o chaveiro ou adesivo. Esse toque ativa a comunicação NFC. <br>
-                                    <strong style="color: white;">5 - Acesse o conteúdo:</strong> Dependendo da configuração e do propósito do chaveiro ou adesivo NFC, ao tocar a área designada do seu smartphone, você poderá acessar instantaneamente informações, links para websites, ativar configurações ou executar tarefas predefinidas. <br>
-                                    <strong style="color: white;">6 - Desempenho e cuidados:</strong> Lembre-se de que o desempenho do NFC pode variar entre os diferentes modelos de smartphones e de chaveiros ou adesivos NFC. Além disso, evite bloquear a área da antena NFC com capas de telefone muito espessas ou outros acessórios que possam interferir na comunicação. 
-                                </p>
-                            </details>
-                            <h3 id="h3duv">Dicas de outros usos para a sua TAG ou adesivo NFC</h3>
-                            <details>
-                            <summary></summary>
-                                <p id="pduv">
-                                    <strong style="color: white;">1 - Parte inferior da capa do smartphone:</strong> A parte inferior da capa do smartphone é um local recomendado para colocar o adesivo NFC. Certifique-se de que a área não seja obstruída por capas muito espessas e que o adesivo não esteja próximo à antena do smartphone para garantir a melhor funcionalidade. <br>
-                                    <strong style="color: white;">2 - Carteiras, bolsas ou estojos:</strong> Colar um adesivo ou TAG NFC dentro de carteiras, bolsas ou estojos pode ser útil para oferecer aos clientes acesso rápido a informações do seu cartão de visita interativo. <br>
-                                    <strong style="color: white;">3 - Folhetos promocionais ou catálogos:</strong> Se você estiver promovendo um produto ou serviço, colocar adesivos NFC em folhetos promocionais ou catálogos pode ser uma maneira conveniente de direcionar os clientes para mais informações online, do seu cartão de visita interativo. <br>
-                                    <strong style="color: white;">4 - Em displays ou outdoors:</strong> Para promoções em lojas físicas, usar adesivos ou TAGs NFC em displays ou outdoors pode ser uma maneira eficaz de chamar a atenção dos clientes para acessar seu cartão de visita interativo. <br>
-                                    <strong style="color: white;">5 - Ao usar adesivos ou TAGs NFC</strong>, é essencial pensar nos locais que oferecem comodidade aos clientes e aumentam a acessibilidade às informações desejadas. Garanta que o adesivo esteja posicionado de forma clara e acessível, proporcionando uma experiência conveniente e intuitiva para quem deseja interagir com o seu cartão de visita interativo.
-                                </p>
-                            </details>
-
-                        </div>
-                    </div>                       
-                </div>
-            </div>
-
             <div id="videos">
                 <div id="h2video">
-                    <h2 class="h2divi">Vídeos sobre o Cartão de Visita interativo</h2>
+                    <h2 class="h2divi">Vídeos sobre o Cartão de Visita Digital</h2>
                 </div>
                 <div id="videocontainer">
                     <div id="imgcartao">
+                        <h3 id="h3video">O que é o botão Salvar Contato?</h3>
                         <a href="https://youtu.be/LACTecvDwkU" target="_blank">
-                            <img id="imgcartao" src="imagens/o-que-e-o-botao-salvar-contato.jpg" alt="O que é o botão Salvar Contato - Cartao de Visita interativo" loading="lazy">
+                            <img id="imgcartao" src="imagens/o-que-e-o-botao-salvar-contato.jpg" alt="O que é o botão Salvar Contato - Cartao de Visita Digital" loading="lazy">
                         </a>
-                        <h3 id="h3video1">O que é o botão Salvar Contato?</h3>
                     </div>
                     <div id="imgcartao">
-                        <a href="https://youtu.be/VP1jyAnLHWg" target="_blank">
-                            <img id="imgcartao" src="imagens/o-que-e-o-cartao-de-visita-virtual.jpg" alt="O que é o Cartao de Visita Visita interativo" loading="lazy">
+                        <h3 id="h3video1">O que é o Cartão de Visita Digital?</h3>
+                        <a id="videos" href="https://youtu.be/VP1jyAnLHWg" target="_blank">
+                            <img id="imgcartao" src="imagens/o-que-e-o-cartao-de-visita-virtual.jpg" alt="O que é o Cartao de Visita Visita Digital" loading="lazy">
                         </a>
-                        <h3 id="h3video1">O que é o Cartão de Visita interativo?</h3>
                     </div>
                     <div id="imgcartao">
+                        <h3 id="h3video1">Atalho na tela inicial do Android?</h3>
                         <a href="https://youtu.be/2tWR-KgPzYY" target="_blank">
                             <img id="imgcartao" src="imagens/como-criar-atalho-na-tela-inicial-android.webp" alt="Como adicionar o cartão na tela inicial do Android?" loading="lazy">
                         </a>
-                        <h3 id="h3video1">Atalho na tela inicial do Android?</h3>
                     </div>
                     <div id="imgcartao">
+                        <h3 id="h3video1">Atalho na tela inicial do Iphone?</h3>
                         <a href="https://youtu.be/mO3-TGwrujQ" target="_blank">
                             <img id="imgcartao" src="imagens/como-criar-atalho-na-tela-inicial-iphone.webp" alt="Como adicionar o cartão na tela inicial do Iphone?" loading="lazy">
                         </a>
-                        <h3 id="h3video1">Atalho na tela inicial do Iphone?</h3>
                     </div>
                 </div>
                 <div id="calltoaction">
                     <div id="aveja">
-                        <h2 id="h2what">Seu cartão por apenas <strong style="color: #79239D; font-weight: bolder;">R$49,90</strong></h2>
+                        <h2 id="h2what">Apenas R$49,90</h2>
                         <p id="casos1">Taxa única, sem mensalidade</p>
                         <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><img id="whats" src="imagens/icons8-whatsapp-64-.png" alt="WhatsApp" loading="lazy"> &nbsp; &nbsp;Chame no WhatsApp</a>
                     </div>
@@ -619,44 +485,48 @@
                     <p id="cartoesfeitos">Apenas</p>
                 </div>        
             </div>
+            
             <div id="clientes">
                 <div id="h2video">
                     <h2 id="h2cliente">O que dizem nossos clientes</h2>    
                 </div>
-
-                <div class="slideshow-container1  estilosCliente">
-                    <div class="mySlides4 fade">
-                      <img id="imgSlideCliente" src="imagens/Cliente_imagem1.webp" style="width:100%">
+                <div class="slideshow-container margemslide">
+                    <div class="mySlides fade">
+                      <img src="imagens/imagem1.webp" style="width:100%">
                     </div>
                   
-                    <div class="mySlides4 fade">
-                      <img id="imgSlideCliente" src="imagens/Cliente_imagem2.webp" style="width:100%">
+                    <div class="mySlides fade">
+                      <img src="imagens/imagem2.webp" style="width:100%">
                     </div>
                   
-                    <div class="mySlides4 fade">
-                      <img id="imgSlideCliente" src="imagens/Cliente_imagem3.webp" style="width:100%">
+                    <div class="mySlides fade">
+                      <img src="imagens/imagem3.webp" style="width:100%">
                     </div>
-                    <div class="mySlides4 fade">
-                    <img id="imgSlideCliente" src="imagens/Cliente_imagem4.webp" style="width:100%">
-                    </div>
-                
-                    <div class="mySlides4 fade">
-                    <img  id="imgSlideCliente" src="imagens/Cliente_imagem5.webp" style="width:100%">
+                    <div class="mySlides fade">
+                    <img src="imagens/imagem4.webp" style="width:100%">
                     </div>
                 
-                    <div class="mySlides4 fade">
-                    <img id="imgSlideCliente" src="imagens/Cliente_imagem6.webp" style="width:100%">
+                    <div class="mySlides fade">
+                    <img src="imagens/imagem5.webp" style="width:100%">
                     </div>
                 
-                    <div class="mySlides4 fade">
-                        <img id="imgSlideCliente" src="imagens/Cliente_imagem7.webp" style="width:100%">
+                    <div class="mySlides fade">
+                    <img src="imagens/imagem6.webp" style="width:100%">
                     </div>
-                  </div>    
+            
+                    <div class="mySlides fade">
+                        <img src="imagens/imagem7.webp" style="width:100%">
+                    </div>
+                </div>    
+            
 
-
-
-               
-                
+                <div id="calltoaction">
+                    <div id="aveja">
+                        <h2 id="h2what">Apenas R$49,90</h2>
+                        <p id="casos1">Taxa única, sem mensalidade</p>
+                        <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><img id="whats" src="imagens/icons8-whatsapp-64-.png" alt=""> &nbsp; &nbsp;Chame no WhatsApp</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -664,29 +534,29 @@
     <footer id="rodape">
         <div class="classdirodape" id="divrodape">
             <div class="classdirodape" id="menucontato">
-                <h3 id="contatolink">Em prol da regeneração planetária</h3>
-                <img id="pagamento1" src="imagens/logoQuadrado.webp" alt="Pagamentos - Cartão de Visita interativo" loading="lazy">
-                <p id="rodape">Em um mundo onde cada ação conta, estamos orgulhosos em contribuir com o Meio Ambiente. Optamos por vender cartões de visita virtuais, não apenas como uma opção moderna, mas como um compromisso com a natureza. Reduzindo o uso de papel, estamos contribuindo ativamente para a preservação das florestas e promovendo uma abordagem sustentável. Junte-se a nós nessa jornada rumo a um futuro mais verde. Cada cartão interativo é mais que um contato, é um passo em direção à preservação do nosso planeta.</p>
+                <h3 id="contatolink">Uma História de Sucesso</h3>
+                <img id="pagamento1" src="imagens/logoQuadrado.webp" alt="Pagamentos - Cartão de Visita Digital" loading="lazy">
+                <p id="rodape">Possuímos valores sólidos e voltados à satisfação do cliente, assim sendo, trabalhamos somente com produtos digitais confiáveis no segmento em que atuamos. Portanto, temos como prioridade a busca constante pela excelência na prestação de serviços e no relacionamento com os clientes, colaboradores, parceiros e fornecedores. </p>
             </div>
             <div class="classdirodape" id="menucontato">
                 <h3 id="contatolink">Mapa do Site</h3>
                 <div class="mapasite">
                     <p id="rede"><a id="contato1" href="index.html#main"><strong>• Home</strong></a></p>
-                    <p id="rede"><a id="contato1" href="index.html#vantagensgannha"><strong>• Vantagens</strong></a></p>
+                    <p id="rede"><a id="contato1" href="index.html#ganha"><strong>• Vantagens</strong></a></p>
                     <p id="rede"><a id="contato1" href="portfolio.html"><strong>• Portfólio</strong></a></p>
                     <p id="rede"><a id="contato1" href="categorias.html"><strong>• Categorias</strong></a></p>
                     <p id="rede"><a id="contato1" href="index.html#diferencial"><strong>• Diferencial</strong></a></p>
                     <p id="rede"><a id="contato1" href="index.html#duvidas"><strong>• Dúvidas</strong></a></p>
                     <p id="rede"><a id="contato1" href="#videos"><strong>• Vídeos</strong></a></p>
                     <p id="rede"><a id="contato1" href="index.html#clientes"><strong>• Clientes</strong></a></p>
-                    <p id="rede"><a id="contato1" href="#rodapeContato"><strong>• Contato</strong></a></p>
+                    <p id="rede"><a id="contato1" href="#rodape"><strong>• Contato</strong></a></p>
                     <p id="rede"><a id="contato1" href="index.html"><strong>• Virtual</strong></a></p>
                     <p id="rede"><a id="contato1" href="digital.html"><strong>• Digital</strong></a></p>
                     <p id="rede"><a id="contato1" href="interativo.html"><strong>• Interativo</strong></a></p>
                     <p id="rede"><a id="contato1" href="https://cartaodevisitavirtual.com.br/v2/" target="_blank"><strong>•Recentes</strong></a></p>
-                </div>                   
+                </div>      
             </div>
-            <div class="classdirodape" id="rodapeContato">
+            <div class="classdirodape" id="linkcontato">
                 <h3 id="contato">Contatos</h3>
                 <div>     
                     <a id="contato" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank">
@@ -714,34 +584,16 @@
                 <h3 id="contato">Recebemos por:</h3>
                 <div id="imgcontato"> 
                     
-                    <img id="pagamento" src="imagens/pagamentos.webp" alt="Pagamentos - Cartão de Visita Virtual" loading="lazy">
+                    <img id="pagamento" src="imagens/pagamentos.webp" alt="Pagamentos - Cartão de Visita Digital" loading="lazy">
                     <img id="pagamento" src="imagens/selos-seguranca.webp" alt="Pagamentos - Cartão de Visita Virtual" loading="lazy">
-                    <img id="pagamento" style="max-width: 50%; padding-top: 30px;" src="imagens/cartaovisitavirtualCorreios-min.png" alt="Pagamentos - Cartão de Visita Virtual" loading="lazy">  
                     
                 </div>
             </div>
         </div>
-        <div class="prefooter">
-            <a style="text-decoration: none;" href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp?cnpj=37622325000116" target="_blank">
-                <p>CNPJ: 37.622.325/0001-16</p>
-            </a>
-            <a style="text-decoration: none;" href="termos.html#troca" target="_blank">
-                <p>Troca e Devolução</p>
-            </a>
-            <a style="text-decoration: none;" href="termos.html#politica" target="_blank">
-                <p>Política de Privacidade</p>
-            </a>
-            <a style="text-decoration: none;" href="termos.html#compati" target="_blank">
-                <p>Compatíveis</p>
-            </a>
-        </div>
         <div class="criado" id="criado">
             <p id="criado">Site criado por <a id="criado" href="https://vovosolucoes.com.br/" target="_blank">Vovô Soluções</a></p>
         </div>
-    </footer>   
-    <script src="estilos/javascript/slidesjstags.js"></script>  
-    <script src="scripts.js"></script>
-
-    
+    </footer>     
+    <script src="estilos/javascript/slides.js"></script>         
 </body>
 </html>
