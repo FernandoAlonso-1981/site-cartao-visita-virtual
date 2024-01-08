@@ -963,3 +963,12 @@ img#imgSlideCliente {
     z-index: 0;
     max-width: 90%;
 }
+
+.prefooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 10px;
+    padding-bottom: 12px;
+}

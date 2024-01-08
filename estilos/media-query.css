@@ -351,6 +351,10 @@ img#pagamento1 {
     p#rede {
         padding: 0;
     }
+
+    .prefooter{
+        font-size: 12px;
+    }
 }
 
 /* animacao cliente */
