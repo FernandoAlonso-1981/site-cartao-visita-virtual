@@ -482,14 +482,14 @@ div#duvidas {
 
 h3#h3duv {
     padding: 20px 40px 5px 40px;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #f7f7f7;
 }
 
 i#h3duv {
     display: block;
     color: #f7f7f7;
-    font-size: 0.7em;
+    font-size: 1em;
     padding: 0px 0px 10px 0px;
 }
 
@@ -513,7 +513,7 @@ p#pduv {
     border: 20px;
     color: #f7f7f7;
     padding: 10px 20px 10px 20px;
-    background-color: #A852B5;
+    background-color: #a04cad2b;
 }
 
 summary {
