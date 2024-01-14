@@ -266,6 +266,14 @@ img#pagamento1 {
         max-width: 95%;
     }
 
+    #aparecenocelular {
+        display: none;
+    }
+
+    #mostrarcasos{
+        display: block;
+    }
+
     div#aveja{
         padding: 50px;
         overflow: hidden;
