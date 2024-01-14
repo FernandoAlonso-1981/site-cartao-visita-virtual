@@ -190,6 +190,14 @@ img#bannerPortfolio {
     padding: 60px 30px 20px 30px;
 }
 
+#slide2{
+    display: none; 
+}
+
+#mostratagnocelular {
+    display: none;
+}
+
 /*CSS h2*/
 div#h21{
     padding: 40px 40px 40px 40px;

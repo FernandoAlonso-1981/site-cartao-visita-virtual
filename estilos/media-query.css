@@ -274,6 +274,8 @@ img#pagamento1 {
         display: block;
     }
 
+   
+
     div#aveja{
         padding: 50px;
         overflow: hidden;
@@ -289,6 +291,15 @@ img#pagamento1 {
 
     .subNFC{
         columns: 3;
+        /* display: block; */
+    }
+
+    #slide2{
+        display: block; 
+    }
+
+    #slide23{
+        display: none !important;
     }
 
     div#h3ganha {
