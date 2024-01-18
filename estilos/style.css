@@ -951,7 +951,7 @@ span#wha {
 /* Estilo para a imagem */
 img#imgSlideNFC {
     border-radius: 20px;
-    background-color: #f7f7f7;
+    background-color: #fff;
     max-width: 100%;
     box-shadow:7px 7px 7px -7px rgba(30, 30, 30, 0.57) inset ;
 }
