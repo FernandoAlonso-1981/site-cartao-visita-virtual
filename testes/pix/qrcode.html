@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            border: none;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            text-align: center;
+            overflow: hidden;
+            background-color: #f7f7f7;
+        }
+        h1,p,img {
+            margin: 40px 0px 0px 0px;
+        }
+        h1{
+            padding-top: 30px;
+            font-weight: bold;
+            color: blueviolet;
+        }
+        p{
+            font-size: 21px;
+        }
+        .roxo {
+            color: blueviolet;
+        }
+        button{
+            background-color: blueviolet;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 20px;
+            font-size: 21px;
+            margin: 40px 20px 20px 20px;
+            cursor: pointer;
+        }
+        img{
+            width: 370px;
+            max-width: 84%;
+        }
+    </style>
+    <title>Qr Code</title>
+</head>
+<body>
+    <h1>Compartilhe Via QR Code</h1>
+    <p>Leia o QR code abaixo com a câmera do seu smartphone</p>
+    <p id="valorQRCode"></p>
+    <p id="mostrarQRCode"></p>
+    <!-- <button id="copiarPix">Clique aqui para copiar</button> -->
+    <br>
+    <a href="https://cartaovirtualdevisita.com.br/" target="_blank"><img src="../../imagens/Cartao-de-Visita-Virtual-logomarca.png" alt=""></a>
+
+    <script src="qrcode.js"></script>
+    
+</body>
+</html>
