@@ -10,27 +10,18 @@
             margin: 0px;
             box-sizing: border-box;
             text-align: center;
-            font-size: 18px;
-            background-color: #f7f7f7;
+            overflow: hidden;
         }
         h1,p,img {
-            margin: 20px 0px 0px 0px;
+            margin: 40px 0px 0px 0px;
         }
         h1{
+            padding-top: 30px;
             font-weight: bold;
             color: blueviolet;
-            font-size: 30px;
         }
-        .spanep > p{
-         
-            font-size: 12px;
-        }
-        .spanep > p >span{
-            
-            font-size: 12px;
-        }
-        .roxo {
-            color: blueviolet;
+        p{
+            font-size: 21px;
         }
         button{
             background-color: blueviolet;
@@ -46,17 +37,18 @@
             max-width: 84%;
         }
     </style>
-    <title>Qr Code</title>
+    <title>Pix</title>
 </head>
 <body>
-    <h1>Compartilhe Via QR Code</h1>
-    <p>Leia o QR code abaixo com a câmera do seu smartphone</p>
-    <p id="mostrarQRCode"></p>
-    <!-- <button id="copiarPix">Clique aqui para copiar</button> -->
+    <h1>Pix copia e cola</h1>
+    <p>Clique no botão abaixo para copiar o pix</p>
+    <p id="valorChavePix"></p>
+    <p id="mostrarPix"></p>
+    <button id="copiarPix">Clique aqui para copiar</button>
     <br>
-    <a href="https://cartaovirtualdevisita.com.br/" target="_blank"><img src="../../imagens/Cartao-de-Visita-Virtual-logomarca.png" alt=""></a>
+    <img src="../../imagens/Cartao-de-Visita-Virtual-logomarca.png" alt="">
 
-    <script src="estilos/javascript/qrcode.js"></script>
+    <script src="pix.js"></script>
     
 </body>
 </html>

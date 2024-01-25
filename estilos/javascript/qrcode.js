@@ -3,7 +3,7 @@ const valorQRCode = new URLSearchParams(window.location.search);
 const mostrarQRCode = document.querySelector("#mostrarQRCode")
 const valorQRCodeURL = valorQRCode.get('qrcode');
 let qrcodemostrar = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${valorQRCodeURL}`;
-mostrarQRCode.innerHTML = ` <div><p><span class="roxo">Link:</span> ${valorQRCodeURL}</p></div>
+mostrarQRCode.innerHTML = ` <div class="spanep"><p><span class="roxo">Link:</span> ${valorQRCodeURL}</p></div>
                             <div><img id="qrcode"src="${qrcodemostrar}" alt=""></div>
                           `
 
