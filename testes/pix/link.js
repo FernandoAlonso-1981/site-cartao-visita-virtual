@@ -2,11 +2,11 @@
 const valorChavePix = new URLSearchParams(window.location.search);
 const copiarPix = document.querySelector("#copiarPix")
 const mostrarPix = document.querySelector("#mostrarPix")
-const valorPixURL = valorChavePix.get('pix');
-mostrarPix.innerHTML = `Chave Pix: ${valorPixURL}`
+const valorPixURL = valorChavePix.get('link');
+mostrarPix.innerHTML = `<div class="spanep" ><p><span>Link:</span> ${valorPixURL}</p></div>`
 copiarPix.addEventListener("click", (evt)=>{
     navigator.clipboard.writeText(valorPixURL)
-    alert(`Chave Pix ${valorPixURL} copiada com sucesso!`)
+    alert(`Link ${valorPixURL} copiado com sucesso!`)
 })
 
 
