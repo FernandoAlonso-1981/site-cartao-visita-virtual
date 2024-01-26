@@ -1,13 +1,13 @@
-// https://cartaovirtualdevisita.com.br/pix.html?pix=
+// https://cartaovirtualdevisita.com.br/link.html?link=
 const valorChavePix = new URLSearchParams(window.location.search);
 const copiarPix = document.querySelector("#copiarPix")
 const mostrarPix = document.querySelector("#mostrarPix")
-const valorPixURL = valorChavePix.get('pix');
+const valorPixURL = valorChavePix.get('link');
 mostrarPix.innerHTML = `<div><span>Link: ${valorPixURL}</span></div>`
 copiarPix.addEventListener("click", function() {
     navigator.clipboard.writeText(valorPixURL)
     .then(function() {
-        alert(`CHAVE PIX ${valorPixURL} COPIADA COM SUCESSO!`);
+        alert(`LINK ${valorPixURL} COPIADO COM SUCESSO!`);
     })
     .catch(function(err) {
         console.error("Erro ao copiar: ", err);
