@@ -11,34 +11,37 @@
             box-sizing: border-box;
             text-align: center;
             overflow: hidden;
+            background-color: #f7f7f7;
         }
-        h1,p,img {
-            margin: 20px 0px 0px 0px;
+        h1,img,h3,p {
+            margin: 10px 0px 0px 0px;
             padding: 0px 5px 0px 5px;
         }
+        span{
+            font-size: 12px;
+        }
         h1{
+           
             font-weight: bold;
             color: blueviolet;
         }
         p{
             font-size: 21px;
         }
-        .spanep > p{
-         
-         font-size: 12px;
-        }
-        .spanep > p >span{
-            
-            font-size: 12px;
-        }
         button{
             background-color: blueviolet;
             color: white;
+            text-transform: uppercase;
             padding: 20px 40px;
             border-radius: 20px;
             font-size: 21px;
             margin: 40px 20px 20px 20px;
             cursor: pointer;
+            max-width: 90%;
+            border: 2px solid white;
+        }
+        button:hover{
+            transform: scale(120%);
         }
         img{
             width: 370px;
@@ -48,15 +51,15 @@
     <title>Link</title>
 </head>
 <body>
-    <h1>Compartilhar via Link/URL</h1>
-    <p>Clique no botão abaixo para copiar o link/URL</p>
-    <p id="valorChavePix"></p>
-    <p id="mostrarPix"></p>
-    <button id="copiarPix">Clique aqui para copiar</button>
+    <h1>Copiar link/URL</h1>
+    
+    <p id="mostrarPix" style="color: blueviolet ;"></p>
+    <h3>Clique no botão abaixo para copiar o link</h3>
+    <button id="copiarPix">Clique aqui para copiar o link</button>
     <br>
-    <img src="../../imagens/Cartao-de-Visita-Virtual-logomarca.png" alt="">
+    <a href="https://cartaovirtualdevisita.com.br/" target="_blank"><img src="../../imagens/Cartao-de-Visita-Virtual-logomarca.png" alt=""></a>
 
-    <script src="link.js"></script>
+    <script src="link2501.js"></script>
     
 </body>
 </html>
