@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+/* Cores usadas
+    Branco = #f7f7f7
+    Preto = #484848
+    Roxo Escuro = #79239D
+    Verde Escuro = #9BCCAF
+    Verde claro = #B2D7C1
+
+   Fontes Usadas
+    Ubuntu
+*/
+
+@media screen and (min-width: 768px){
+
+    
+    main {
+        width: 80%;
+        max-width: 1080px;
+    }
+
+       div#h3ganha {
+        column-count: 2;
+    }
+
+    p#linkpdf {
+        overflow: hidden;
+    }
+
+    div#imgcard {
+        column-count: 2;
+        
+    }
+
+    id#h3difere {
+        column-count: 2;
+    }
+
+    div#colunduvida {
+        column-count: 2;
+    }
+
+    div#duv1 {
+        overflow: hidden;
+    }
+
+    div#duv2 {
+        overflow: hidden;
+    }
+    
+    h3#h3duv {
+        overflow: hidden;
+    }
+    
+    p#pduv {
+        overflow: hidden; 
+    }
+
+    div#clienteimg {
+        column-count: 3;
+    }
+
+    div#clienteimg02 {
+        display: block;
+    }
+
+   div#contato1 {
+    column-count: 2;
+    
+   }  
+
+   div#linkcontato {
+    overflow: hidden;
+   }
+
+   div#linkcontato1 {
+    overflow: hidden;
+   }
+    
+   a#contato {
+    overflow: hidden;
+    font-size: smaller;
+   } 
+
+   div#logohist {
+    column-count: 2;
+   }
+    
+   img#contato {
+    text-align: center;
+    width: 80px;
+    height: 80px;   
+    padding: 0px 0px 0px 0px; 
+    overflow: hidden;
+   }
+   
+
+   div#contato {
+    display: none;
+}
+
+div#divrodape {
+    column-count: 2;
+}
+
+img#pagamento1 {
+    display: none;
+}
+   
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+  
+
+    main {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    header {
+      
+        background-color: ffffff;
+        overflow: hidden;
+    
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    p, strong {
+        overflow: hidden;
+    }
+
+    /* .h2divi{
+        padding: 20px 0px 0px 0px;
+    }
+   */
+
+    div#port1 {
+        padding: 20px 80px 60px 80px;
+    }
+   
+   
+    div#header1 { /*dividindo menu em duas colunas*/
+        column-count: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+        overflow: hidden;
+        background: initial;
+    }
+    
+
+   div#logo { /*montrando div logo*/
+        display: block;
+        width: 30%;
+        height: 100%;
+        float: left;
+        
+    }
+
+    img#logo{
+        margin: auto;
+        width: 200px;
+        height: 45px;
+        overflow: hidden;
+    }
+
+    header > div > div > menu {
+        position: initial;
+        margin: auto;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        border-top: initial;
+        left: initial;
+        right: initial;
+
+    }
+
+    div#menu {
+        width: 70%;
+        height: 100%;
+        float: left;
+       
+        display: block;
+        margin: auto;
+    }
+
+    menu#itens { /*mostrando o menu*/
+        background: initial;
+        display: block;
+        overflow: hidden;
+        
+   
+    }
+
+
+    header > div > div > menu > a {
+        display: inline;
+        margin: auto;
+        background-color: initial;
+        text-decoration: none;
+        border-bottom: initial;
+        text-align: left;
+        padding: 0px 10px 0px 0px;
+    
+        
+    }
+
+    header > div > div> menu > a:hover {
+        background-color: initial;
+    }
+    
+    header > div > div> menu > a >strong:hover {
+        color: #e1a8ea;
+        scale: 50%;
+    }
+
+
+ 
+
+    p#burguer { /*escondendo o menu hamburguer*/
+        display: none;
+    }
+
+    main {
+        padding: 60px 0px 0px 0px;
+        overflow: hidden;
+    }
+
+    div#h1princ {
+        display: flex;
+        column-count: 2;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        overflow: hidden;
+        /* padding: 0px 0px 30px 0px; */
+    }
+
+    div#h1 {
+        overflow: hidden;
+        width: 55%;
+    }
+
+    h1#h1 {
+        padding: 0px;
+    }
+
+    div#img1 {
+        padding: 0px;
+        width: 45%;
+        overflow: hidden;
+    }
+
+    img#banner {      
+        overflow: hidden;
+        max-width: 95%;
+    }
+
+    #aparecenocelular {
+        display: none;
+    }
+
+    #mostrarcasos{
+        display: block;
+    }
+
+   
+
+    div#aveja{
+        padding: 50px;
+        overflow: hidden;
+    }
+
+    a#veja {
+        overflow: hidden;
+    }
+
+    img#imgcartao1 {
+        display: none;
+    }
+
+    .subNFC{
+        columns: 3;
+        /* display: block; */
+    }
+
+    #slide2{
+        display: block; 
+    }
+
+    #slide23{
+        display: none !important;
+    }
+
+    div#h3ganha {
+        column-count: 4;
+    }
+    
+    .h3ganha3 {
+        overflow: hidden;
+    }
+
+    div#imgcard {
+        column-count: 5;
+    }
+
+    img#imgcartao1 {
+        display: block;
+    }
+
+    .botoes {
+        column-count: 2;
+    }
+
+    div#botoes{
+        column-count: 2;
+        padding: 5px 30px 60px 30px;
+    }
+
+    .difere {
+        overflow: hidden;
+    }
+
+    div#h3difere {
+        column-count: 2;
+        padding: 40px 0px 0px 0px;
+    }
+
+    div#video {
+        text-align: center;
+        overflow: hidden;
+        padding: 20px 20px 30px 20px;
+    }
+
+    div#colunduvida {
+        column-count: 2;
+    }
+
+    div#videocontainer {
+        padding-top: 40px;
+        column-count: 2;
+    }
+
+    div#contato {
+        display: none;
+    }
+
+    div#divrodape {
+        column-count: 4;
+    }
+
+    img#pagamento1 {
+        display: none;
+    }
+
+    .mapasite {
+        column-count: 2;
+    }
+
+    p#rede {
+        padding: 0;
+    }
+
+    .prefooter{
+        font-size: 12px;
+    }
+
+    .videotagreproducao {
+        width: 600px;
+        height: 400px;
+        background-color: #212121;
+       
+    }
+}
+
+/* animacao cliente */
+

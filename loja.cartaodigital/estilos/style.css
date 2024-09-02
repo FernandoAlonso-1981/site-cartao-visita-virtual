@@ -1,0 +1,1006 @@
+@charset "UTF-8";
+
+/* Cores usadas
+    Branco = #f7f7f7
+    Preto = #484848
+    Roxo Escuro = #79239D
+    Roxo Claro = #A852B5
+    Verde Escuro = #9BCCAF
+    Verde claro = #B2D7C1
+    Verde WhatsApp = #34af23 e #008000
+
+   Fontes Usadas
+    Ubuntu
+*/
+
+/*Importação das fontes Ubuntu do Google*/
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');*/
+
+/*Configuração geral*/
+* {
+    padding: 0px;
+    margin: 0px;
+    
+    color: #484848;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    box-sizing: border-box;
+    font-display: swap;
+}
+
+/*Todos os paragrafos*/
+
+P {
+    
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 0px 30px 0px 30px;
+    line-height: 1.8em;
+    font-size: 1.08em;
+}
+
+/*Configuração html e body*/
+
+html, body {
+    background-color: #f7f7f7;
+    margin: auto;   
+}
+
+/*Cabeçlaho*/
+
+header {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    
+    /*border-bottom:  1px solid #48484822;*/
+}
+
+/*Escondendo a logo mobile firt*/
+div#logo {
+    display: none;
+}
+
+
+/*Configuração menu mobile first*/
+p#burguer {
+    color: #79239D;
+    display: block;
+    text-align: right;
+    padding: 12px 50px 0px 30px;
+    cursor: pointer;
+    border-bottom: 1px solid #48484822; 
+    font-size: 1.5em;
+}
+
+/*icone menu ao passar o mouse*/
+p#burguer:hover {
+    color: #78239d7e;
+    transform: scale(99%); 
+}
+
+/*Configuração do menu mobile first*/
+header > div > div > menu {
+    display: none;
+    background-color: #ffffff;
+    position: absolute;
+    margin: auto;
+    width: 70vw;
+    padding: 10px;
+    border-top: 3px solid #79239D;
+    left: 10%;
+    right: 10%;    
+}
+
+/*Configuração dos links do menu mobile first*/
+header > div > div > menu > a {
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: left;
+}
+
+/*Configuração dos links do menu mobile first ao passar o mouse*/
+header > div > div> menu > a:hover {
+    background-color: #f7f7f7;
+    transform: scale(97%); 
+}
+
+/*imagens icones*/
+img#menuicon {
+    margin: auto;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+
+.ComoComprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+img#diferencial {
+    text-align: center;
+    margin: auto;
+    height: 25px;
+    width: 25px;
+}
+
+/*main fundo principal*/
+
+main {
+    margin: auto;
+}
+
+h1#h1{
+    padding: 40px 40px 10px 40px;
+    text-align: center;
+}
+
+.h1child{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/*div da botão do banner*/
+div#aveja{
+    padding: 50px;
+}
+
+div#aveja1{
+    padding: 50px;
+    column-count: 1;
+}
+
+/*Botão veja quem fez*/
+a#veja {
+    margin: auto;
+    display: block;
+    background-color: #79239D;
+    color: #f7f7f7;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 3px;  
+}
+
+/*passar o mouse Botão veja quem fez*/
+a#veja:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+/*Css imagem do banner*/
+img#banner {
+    margin: auto;
+    width: 90%;
+    display: block;    
+}
+
+img#bannerPortfolio {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: block;
+    padding: 60px 30px 20px 30px;
+}
+
+#slide2{
+    display: none; 
+}
+
+#mostratagnocelular {
+    display: none;
+}
+
+/*CSS h2*/
+div#h21{
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+}
+
+h2#h2what {
+    text-align: center;
+}
+
+/*primeira parte div ganha*/
+div#ganha {
+    margin: auto;
+    background-color: #ffffff;
+    width: 98%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
+}
+
+/*h3 dentro do ganha*/
+div#h3ganha {
+    text-align: center;
+    column-count: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+/**/
+div.h3ganha3 {
+    padding: 20px 0px 20px 0px;
+}
+
+/*Espaçãmentos do h3*/
+h3#h3 {
+    padding: 20px;
+    text-align: center;
+}
+
+/*ícones do ganha*/
+p#linkpdf {
+    text-align: center;
+    color: #79239D;
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+/*Botão WhatsApp*/
+a#whatsapp {
+    margin: auto;
+    display: block;
+    background-color: #008000;
+    color: #f7f7f7;
+    border: 2.1px solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    max-width: 600px;   
+    z-index: 99999999;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
+}
+
+/*passar o mouse Botão WhatsApp*/
+a#whatsapp:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+
+/*Paragrafo do texto debaixo do h2 casos*/
+
+div#casos{
+    padding-top: 60px ;
+}
+
+#mostrarcasos {
+    display: none;
+}
+
+
+p#casos {
+    text-align: center;
+    text-align: center;
+}
+
+/*Paragrafo do texto debaixo do h2 botão whatsapp*/
+p#casos1 {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+i#whats {
+    color: #f7f7f7;
+    font-size:1.52em;
+    text-align: center;
+    padding: 0px 10px 0px 0px;
+}
+
+/*dividindo 2 colunas mobile first*/
+div#imgcard {
+    column-count: 2;
+    padding: 0px 20px 40px 20px;
+}
+
+
+/*acertando para caber 2 imagens*/
+div#imgcartao {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0px 10px 0px; 
+    
+}
+
+/*acertando as 2 imagens centralizadas*/
+img#imgcartao {
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 98%;
+    max-height: 100vh; 
+    border-radius: 10px;   
+    /* padding: 10px 0px 10px 0px;  */
+    box-shadow: 7px 7px 3px -6px rgba(30, 30, 30, 0.75) ;
+}
+
+img#imgcartao1 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;    
+    padding: 10px 0px 10px 0px;
+}
+
+/*Passar o mouse nos cartões*/
+img#imgcartao:hover{
+    scale: 97%;
+    cursor: pointer;
+    transition: 0.3s;
+    width: auto;
+    height: auto;
+}
+
+img#imgcartao1:hover{
+    scale: 97%;
+    cursor: pointer;
+    transition: 0.3s;
+    width: auto;
+    height: auto;
+}
+
+/*parte dos botões abaixo das imagens de catões*/
+
+
+
+div#botoes{
+    padding: 0px 10px 50px 10px;
+    
+    
+    justify-content: center;
+    display: contents;
+    
+}
+
+div#portbutton{
+    column-count: 2;
+    padding: 5px 20px 57px 20px;
+}
+
+a#port {
+    margin: auto;
+    display: block;
+    background-color: #79239D;
+    color: #f7f7f7;
+    border: 2px solid #79239D;
+    border-radius: 20px;
+    padding: 1.4em 0px 1.4em 0px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    box-shadow: 5px 5px 7px -3px rgba(30, 30, 30, 0.57) ;    
+}
+
+/*passar o mouse Botão veja quem fez*/
+a#port:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+div#video {
+    padding: 50px 50px 0px 50px;
+}
+
+/*h3 dentro do diferencial*/
+div#diferencial {
+    background-color: #ffffff;
+    width: 99%;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
+}
+
+div#h3difere {
+    text-align: center;
+    padding: 0px;
+    
+}
+
+i#h3diferen {
+    text-align: left;
+    padding: 0px 10px 0px 0px;
+    color: #79239D;
+}
+
+
+/*Botão Vídeo*/
+a#video {
+    margin: auto;
+    display: block;
+    background-color: #c4302b;
+    color: #f7f7f7;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
+}
+
+a#video:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+i#video {
+    color: #f7f7f7;
+    font-size:1.52em;
+    text-align: center;
+    padding: 0px 10px 0px 0px;
+}
+
+div#imgdifer {
+    margin: auto;
+    display: block;
+    align-items: center;
+      
+}
+
+img#imgdifer {   
+    width: 70%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    padding: 30px;
+    scale: 90%;
+
+}
+
+/*primeira parte div duvida*/
+div#duvidas {
+    background-color: #79239D;
+    width: 99%;
+    
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.75) ;
+}
+
+/*h2 div*/
+div#h2duv{
+   padding: 20px 0px 40px 0px;
+    text-align: center;
+}
+
+h2#duvidas{
+    color: #f7f7f7;
+    padding: 40px 40px 40px 40px;
+   
+}
+
+/*Parte de dúvidas do sites*/
+div#duvidas {
+    padding: 30px;
+}
+
+h3#h3duv {
+    padding: 20px 40px 5px 40px;
+    font-size: 1.1em;
+    color: #f7f7f7;
+}
+
+i#h3duv {
+    display: block;
+    color: #f7f7f7;
+    font-size: 1em;
+    padding: 0px 0px 10px 0px;
+}
+
+i#h3duv:hover {
+    cursor: pointer;
+    transform: scale(120%); 
+}
+
+summary {
+    cursor: pointer;
+}
+
+
+strong#duv{
+    color: #f7f7f7;
+}
+
+/*essa parte estou fazendo cada dúvida individual até saber como faz 1 só*/
+p#pduv {
+    margin: auto;
+    border: 20px;
+    color: #f7f7f7;
+    padding: 10px 20px 10px 20px;
+    background-color: #a04cad2b;
+}
+
+summary {
+    color: #f7f7f7;
+    padding: 0px 0px 5px 0px;
+    scale: 90%;
+}
+
+summary:hover {
+    scale: 60%;
+}
+
+
+/*parte dos vídeos*/
+
+div#videos {
+    padding: 40px 40px 80px 40px;
+    background-color: #ffffff;
+    width: 99%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
+}
+
+div#h2video {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+h3#h3video1 {
+    padding: 1px 0px 30px 0px;
+}
+
+/*parte de clientes*/   
+
+div#clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px;
+    overflow: hidden;
+}
+
+div#cartoesfeitos {
+    padding: 40px 40px 0px 40px;
+    background-color: #ffffff;
+}
+
+p#cartoesfeitos1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    color: #79239D;
+
+}
+
+p#cartoesfeitos{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+h2#h2cliente {
+    padding: 40px 20px 20px 20px;
+}
+
+/*dividindo 2 colunas mobile first*/
+div#imgcliente1 {
+    
+    padding: 0px 20px 0px 20px;
+}
+
+#clienteimg{
+    columns: 1;
+}
+
+div#clienteimg02 {
+    display: none;
+}
+
+
+div#imgcliente1 {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*acertando as 2 imagens centralizadas*/
+img#imgcliente1 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;    
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+div#imgcliente {
+    display: none;
+}
+
+
+/*área de contato*/
+
+h2#h2contato {
+    padding: 60px 0px 0px 0px;
+}
+
+div#imgcontato{
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+img#contato {
+    text-align: center;
+    width: 50%;
+    height: 50%;   
+    padding: 0px 0px 0px 0px; 
+    
+}
+
+h3#contato {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+h3#contatorede {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+
+
+a#contato {
+    text-decoration: none;
+}
+
+div#linkcontato {
+    padding: 0px 0px 10px 0px;
+}
+
+p#contato {
+    
+    font-size: 1.06em;
+    font-weight: 500;
+    padding: 5px 0px 0px 0px;
+   
+}
+
+/*Botão redesocial*/
+
+div#redes {
+    column-count: 2;
+    padding: 40px 30px 60px 30px;
+}
+
+div#rede {
+    padding: 0px;
+}
+
+
+a#rede {
+    margin: auto;
+    display: block;
+    background-color: #79239D;
+    color: #f7f7f7  #79239D;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 5px 5px 7px -3px rgba(30, 30, 30, 0.57) ;    
+}
+
+a#rede:hover {
+    scale: 97%;
+    transition: 0.3s;
+}
+
+
+div#menucontato {
+    padding: 0px 0px 40px 0px;
+}
+
+h3#contatolink {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+p#rede {
+    text-align: center;   
+   
+    
+}
+
+a#contato1{
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+
+img#selo {
+    width: auto;
+    height: auto;
+    padding: 0px 10px 40px 10px;
+}
+
+div#contato {
+    display: none;
+}
+
+footer#rodape {
+    
+    background-color: #f7f7f7;
+    margin: auto;
+    padding: 100px 20px 40px 20px;
+}
+
+footer > p {
+
+    color: #484848;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.classdirodape {
+    overflow: hidden;
+}
+
+div#divrodape {
+    column-count: 1;
+}
+
+p#rodape {
+    padding: 0px;
+}
+
+
+
+img#pagamento {
+   
+    max-width: 100%;
+    height: auto;
+}
+
+img#pagamento1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+
+span#video {
+    color: #f7f7f7;
+    padding: 0px 10px 0px 0px;
+}
+
+img#whats {
+    margin: auto;
+    height: 21px;
+    width: 21px;
+
+}
+
+div#criado {
+    background-color: #79239D;
+}
+
+p#criado {
+    color: #f7f7f7;
+    text-align: center;
+
+}
+
+a#criado {
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+/*Botão voltar ao topo*/
+
+
+html, body {
+       scroll-behavior: smooth;
+}
+
+img#voltar {
+    margin: auto;
+    height: 25px;
+    width: 25px;
+}
+
+img#voltar:hover {
+    scale: 120%;
+}
+
+img#whatsapp {
+    margin: auto;
+    width: 120%;
+    filter: drop-shadow(3px 7px 7px rgba(0, 0, 0, 0.75));
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 430px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    z-index: 999999999999999999999;
+    text-decoration: none;
+}
+.btn::after {
+    content: "";
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #79239D;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+
+
+.wha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 21px;
+    width: 43px;
+    text-decoration: none;
+    z-index: 999999999999999;
+}
+.wha::after {
+    /*content: "^";*/
+    font-size: 1em;
+    font-weight: bold;
+    color: #f7f7f7;
+    transition: margin-top 250ms;
+}
+
+a#wha:hover {
+    scale: 120%;
+    transition: all 0.5s ease-in-out;
+}
+
+span#wha {
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* .imagem-tremendo {
+    animation: tremer 1s ease-in-out infinite;
+  }
+  
+  @keyframes tremer {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-3px) rotate(-3deg);
+    }
+    50% {
+      transform: translateX(3px) rotate(3deg);
+    }
+    75% {
+      transform: translateX(-3px) rotate(-3deg);
+    }
+    
+  } */
+
+
+/*Botão voltar ao topo e botão whatsapp*/
+
+.imgTags{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Estilo para o contêiner do slideshow */
+.slideshow-container1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+     display: none;
+     margin: 0px 30px;
+}
+
+.h3ganhaNFC{
+    max-width: 100% !important;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+/* Estilo para a imagem */
+img#imgSlideNFC {
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 100%;
+    box-shadow:7px 7px 7px -7px rgba(30, 30, 30, 0.57) inset ;
+}
+
+img#imgSlideCliente {
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.estilosCliente{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 540px ; 
+    position: relative;
+    overflow: hidden ;
+    z-index: 0;
+    max-width: 90%;
+}
+
+.prefooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 10px;
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+    
+}
+
+.videotagreproducao {
+    max-width: 75%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.57);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
