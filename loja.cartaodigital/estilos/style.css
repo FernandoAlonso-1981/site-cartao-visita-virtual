@@ -119,15 +119,9 @@ img#menuicon {
     width: 30px;
 }
 
-.ComoComprar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
 
-}
+
+
 
 
 img#diferencial {
@@ -1004,3 +998,20 @@ img#imgSlideCliente {
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
+
+.ComoComprar{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 100%;
+    box-shadow:7px 7px 7px -7px rgba(30, 30, 30, 0.57);
+}
+

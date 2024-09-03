@@ -1,0 +1,53 @@
+/* Estilo para ocultar todos os slides por padrão */
+* {
+  background-color: #f7f7f7;
+}
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+  display: none;
+  width: 93%;
+}
+
+
+
+/* Estilo para a imagem */
+img#imgSlideNFC {
+  vertical-align: middle;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow:7px 7px 12px -10px rgba(30, 30, 30, 0.57) ;
+  
+}
+
+
+
+/* Estilo para o contêiner do slideshow */
+.slideshow-container1 {
+  columns: 3;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  /* animation: slideAnimation 5s infinite; Adiciona uma animação de slide com duração de 2 segundos e repetição infinita */
+}
+
+.estilosCliente{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 540px ; 
+  position: relative;
+  overflow: hidden ;
+  z-index: 0;
+}
+
+img#imgSlideCliente {
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+
+

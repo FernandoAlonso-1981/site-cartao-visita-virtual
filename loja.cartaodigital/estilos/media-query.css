@@ -106,7 +106,16 @@ div#divrodape {
 img#pagamento1 {
     display: none;
 }
+
+.ComoComprarColuna{
+    column-count: 3;
+    
+}
    
+.ComoComprarColunasub{
+    overflow: hidden;
+}
+
 }
 
 
@@ -385,4 +394,8 @@ img#pagamento1 {
 }
 
 /* animacao cliente */
+
+
+
+
 
