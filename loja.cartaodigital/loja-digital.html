@@ -285,13 +285,13 @@
                         <h2 id="h2what">Seu cartão por apenas <strong style="color: #79239D; font-weight: bolder;">R$49,90</strong></h2>
                         <p id="casos1">Taxa única, sem mensalidade</p>
                         
-                        <div style="width: 80%;">
-                            <script src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
-                            data-preference-id="328213870-c75d2a35-587b-42c6-9d22-324f99b24da3" data-source="button">
-                        </script>
+                        <div style="display: flex;  justify-content: center;">
+                            <div id="payment-button-container" class="payment-button-container" >
+                                <script src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
+                                    data-preference-id="328213870-f5400c6e-988b-48fc-ae7f-478740f5d021" data-source="button">
+                                </script>
+                            </div>
                         </div>
-
-                        <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5531994659971&text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank"><img id="whats" src="imagens/icons8-whatsapp-64-.png" alt=""> &nbsp; &nbsp;Chame no WhatsApp</a>
                     </div>
                 </div>
 
@@ -856,6 +856,47 @@
             <p id="criado">Site criado por <a id="criado" href="https://vovosolucoes.com.br/" target="_blank">Vovô Soluções</a></p>
         </div>
     </footer>   
+    <script>
+        // Aguarde o carregamento completo do script
+        document.addEventListener('DOMContentLoaded', function () {
+            const container = document.getElementById('payment-button-container');
+            
+            container.addEventListener('click', function () {
+                // Encontre o botão dentro do container e simule um clique
+                const button = container.querySelector('button');
+                if (button) {
+                    button.click();
+                }
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            // Aguarda o carregamento do botão
+            setTimeout(function() {
+                // Tenta encontrar o botão
+                const button = document.querySelector('.payment-button-container button');
+                if (button) {
+                    // Altera o texto do botão
+                    button.textContent = 'Comprar Agora';
+                }
+            }, 1); // Ajuste o tempo conforme necessário
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            // Aguarda o carregamento do botão
+            setTimeout(function() {
+                const container = document.getElementById('payment-button-container');
+                
+                // Adiciona um manipulador de eventos de clique à div
+                container.addEventListener('click', function () {
+                    // Tenta encontrar o botão dentro do container e simula um clique
+                    const button = container.querySelector('button');
+                    if (button) {
+                        button.click(); // Simula um clique no botão
+                    }
+                });
+            }, 2000); // Ajuste o tempo conforme necessário
+        });
+        
+    </script>
     <script src="estilos/javascript/slidesjstags.js"></script>  
     <script src="scripts.js"></script>
 

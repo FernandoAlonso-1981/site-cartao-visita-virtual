@@ -16,6 +16,8 @@
 /*Importação das fontes Ubuntu do Google*/
 /*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');*/
 
+
+
 /*Configuração geral*/
 * {
     padding: 0px;
@@ -1015,3 +1017,20 @@ img#imgSlideCliente {
     box-shadow:7px 7px 7px -7px rgba(30, 30, 30, 0.57);
 }
 
+.payment-button-container{
+    width: 70%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    font-size: 24px;
+    background-color: #009ee3;
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.75) ;
+}
+
+.payment-button-container:hover{
+    transform: scale(97%); 
+}
