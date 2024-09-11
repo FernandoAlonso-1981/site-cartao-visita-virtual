@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilo padrão para o body */
+        body {
+            background-color: #00a0e5;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Contêiner principal */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilo do título */
+        h1 {
+            color: #f7f7f7;
+            margin: 20px 0px 30px 0px;
+            font-size: 1.5em;
+        }
+
+        /* Estilo dos campos e botões */
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 400px; /* Largura máxima dos campos */
+            margin-bottom: 75px;
+        }
+
+        .ddi-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .ddi-field, .telefone-field {
+            font-size: 1em;
+            font-weight: bold;
+            color: #013247;
+            background-color: #f7f7f7;
+            height: 50px;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .ddi-field {
+            width: 100px;
+        }
+
+        .telefone-field {
+            flex: 1;
+        }
+
+        .button-field {
+            font-size: 1em;
+            font-weight: bold;
+            color: #013247;
+            height: 40px;
+            width: 100%;
+            max-width: 300px;
+            background-color: #f7f7f7;
+            cursor: pointer;
+        }
+
+        /* Estilo da imagem responsiva */
+        .imagem-responsiva {
+            width: 50%; /* Largura padrão */
+            max-width: 300px; /* Largura máxima da imagem */
+            margin-top: 20px;
+        }
+
+        /* Media Queries para telas maiores */
+        @media (min-width: 758px) {
+            .imagem-responsiva {
+                width: 20%; /* Largura reduzida para telas maiores */
+            }
+
+            h1 {
+                font-size: 2em; /* Aumenta o tamanho da fonte para telas maiores */
+            }
+        }
+    </style>
+    <title>Política de Privacidade</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento efetuado com sucesso!</h1>
+
+        <p style="font-size: 24px; font-weight: bolder; color: #f7f7f7; margin-bottom: 40px;" >
+            Coloque o número do seu whatsapp abaixo para que possamos entrar em contato com você.
+        </p>
+        
+        <div class="input-container">
+            <div class="ddi-container">
+                <input type="text" id="ddi" class="ddi-field" value="55" oninput="formatarDDI(this)">
+                <input type="text" id="telefone" class="telefone-field" placeholder="(__) ____-____" oninput="mascaraTelefone(this)">
+            </div>
+            <br><br>
+            <input class="button-field" type="button" value="Enviar" onclick="enviarWhatsApp()">
+        </div>
+
+        <img class="imagem-responsiva" src="imagens/mp-logo-white.webp" alt="">
+    </div>
+
+    <script>
+        // Função para aplicar a máscara de telefone
+        function mascaraTelefone(input) {
+            let valor = input.value.replace(/\D/g, ''); // Remove tudo que não é número
+
+            // Formata o número no formato (DD) ____-____
+            if (valor.length > 11) valor = valor.slice(0, 11); // Limita o comprimento
+
+            const ddd = valor.slice(0, 2);
+            const parte1 = valor.slice(2, 7);
+            const parte2 = valor.slice(7, 11);
+
+            input.value = `(${ddd}) ${parte1}-${parte2}`;
+        }
+
+        // Função para formatar o campo DDI
+        function formatarDDI(input) {
+            let valor = input.value.replace(/\D/g, ''); // Remove tudo que não é número
+            if (valor.length > 2) valor = valor.slice(0, 2); // Limita o comprimento
+            input.value = valor;
+        }
+
+        // Função para enviar o número de WhatsApp para o e-mail
+        function enviarWhatsApp() {
+            const ddi = document.getElementById("ddi").value;
+            const telefone = document.getElementById("telefone").value;
+
+            // Combinando DDI e telefone
+            const whatsappNumber = `+${ddi} ${telefone}`;
+
+            // Enviar o número de WhatsApp para o e-mail usando um serviço backend
+            fetch('enviar-email.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams({
+                    numero: whatsappNumber
+                })
+            })
+            .then(response => response.text())
+            .then(result => {
+                alert('Número enviado com sucesso!');
+            })
+            .catch(error => {
+                alert('Ocorreu um erro ao enviar o número.');
+            });
+        }
+    </script>
+</body>
+</html>
