@@ -120,6 +120,7 @@ img#pagamento1 {
 
 
 .payment-button-container{
+    white-space: nowrap;
     width: 70%;
     height: 75px;
     display: flex;
@@ -134,6 +135,7 @@ img#pagamento1 {
 }
 
 .payment-button-container:hover{
+    white-space: nowrap;
     transform: scale(97%); 
 }
 
@@ -416,6 +418,7 @@ img#pagamento1 {
 }
 
 .payment-button-container{
+    white-space: nowrap;
     width: 70%;
     height: 75px;
     display: flex;
@@ -430,6 +433,7 @@ img#pagamento1 {
 }
 
 .payment-button-container:hover{
+    white-space: nowrap;
     transform: scale(97%); 
 }
 /* animacao cliente */

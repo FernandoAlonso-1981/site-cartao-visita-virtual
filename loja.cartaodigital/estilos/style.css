@@ -151,11 +151,11 @@ h1#h1{
 
 /*div da botão do banner*/
 div#aveja{
-    padding: 50px 12px;
+    padding: 50px 0px;
 }
 
 div#aveja1{
-    padding: 50px 12px;
+    padding: 50px 0px;
     column-count: 1;
 }
 
@@ -1018,6 +1018,7 @@ img#imgSlideCliente {
 }
 
 .payment-button-container{
+    white-space: nowrap;
     padding: auto;
     width: 70%;
     height: 75px;
@@ -1033,5 +1034,6 @@ img#imgSlideCliente {
 }
 
 .payment-button-container:hover{
+    white-space: nowrap;
     transform: scale(97%); 
 }
