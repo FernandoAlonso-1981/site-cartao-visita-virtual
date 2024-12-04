@@ -473,6 +473,7 @@ div#duvidas {
     width: 99%;
     
     box-shadow: 7px 7px 12px -10px rgba(30, 30, 30, 0.75) ;
+    
 }
 
 /*h2 div*/
@@ -1001,4 +1002,9 @@ img#imgSlideCliente {
 
 .ultimotesteagenda{
     display: none;
+}
+
+.agendamentocartao {
+    margin-top: 70px;
+
 }
