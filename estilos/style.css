@@ -949,7 +949,7 @@ span#wha {
 }
 
 /* Estilo para a imagem */
-img#imgSlideNFC {
+img#imgSlideNFC, div#imgSlideNFC{
     border-radius: 20px;
     background-color: #fff;
     max-width: 100%;
