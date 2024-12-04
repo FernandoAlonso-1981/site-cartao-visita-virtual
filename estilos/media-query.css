@@ -106,8 +106,18 @@ div#divrodape {
 img#pagamento1 {
     display: none;
 }
-   
+
+
+.agenda-preco {
+    column-count: 3;   
+    
 }
+
+
+
+}
+
+
 
 
 
@@ -382,6 +392,12 @@ img#pagamento1 {
         background-color: #212121;
        
     }
+    .agenda-preco {
+        column-count: 3;   
+        
+    }
+
+  
 }
 
 /* animacao cliente */
