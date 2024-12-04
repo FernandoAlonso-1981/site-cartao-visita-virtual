@@ -113,6 +113,9 @@ img#pagamento1 {
     
 }
 
+.ultimotesteagenda{
+    display: block;
+}
 
 
 }
@@ -395,6 +398,9 @@ img#pagamento1 {
     .agenda-preco {
         column-count: 3;   
         
+    }
+    .ultimotesteagenda{
+        display: block;
     }
 
   

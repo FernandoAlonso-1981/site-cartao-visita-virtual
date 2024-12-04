@@ -998,3 +998,7 @@ img#imgSlideCliente {
     column-count: 1;   
     
 }
+
+.ultimotesteagenda{
+    display: none;
+}
